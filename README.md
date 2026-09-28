@@ -19,6 +19,8 @@ The main replay uses `store_mirror/`. The amended and post hoc findings draw on 
 
 **Generated images are not in this repository.** The main experiment's images were approximately 3.8 GB and are not part of the local replay bundle. Manifests record prompts, seeds, and generator fingerprints so that a suitably provisioned system can attempt regeneration with the public checkpoints and matching settings. Regeneration requires GPU resources and model downloads; exact pixel reproduction can depend on the software and accelerator environment. The stored scores, reader outputs, and embeddings allow the CPU analyses to operate without regenerating images.
 
+Figure scripts that place image thumbnails, including the Figure 1 hero, need those omitted images. Their plotted statistics and table inputs are included in the JSON results.
+
 ## Check the files
 
 From the repository root, verify the release manifest before using the data:
@@ -58,7 +60,11 @@ python analyze.py --root results/store_mirror --config configs/pilot.yaml \
   --vocab data/cspace_cuisine_vocab.json --reader siglip --out results/replay_siglip
 ```
 
-`analyze.py` records hashes of the configuration, vocabulary, relevant store files, and analysis code with its outputs, and refuses to overwrite outputs of different provenance without an explicit replacement option. Use new output directories when comparing a release with saved results. The commands above are documented from the code's command-line arguments; they have **not been executed as part of preparing this release**.
+`analyze.py` records hashes of the configuration, vocabulary, relevant store files, and analysis code with its outputs, and refuses to overwrite outputs of different provenance without an explicit replacement option. Use new output directories when comparing a release with saved results.
+
+## Release verification
+
+In a fresh Linux/WSL environment with Python 3.12.3, NumPy 2.5.3, PyYAML 6.0.3, Matplotlib 3.11.2, and pytest 9.1.1, all **180 tests passed**. The root checksum manifest verified all **125 listed data files**. The main Qwen CPU analysis and `make_report.py` completed. For both SDXL and FLUX.1-schnell, every saved output field except `provenance` matched the corresponding `experiments/results/real/*.json` file exactly; the provenance metadata differs between runs. GPU generation and the extension analyses were not rerun for this release.
 
 ## Sources and rights
 

@@ -1,0 +1,1842 @@
+{
+ "status": "post hoc, descriptive",
+ "space": "DINOv2 (cosine)",
+ "generators": {
+  "sdxl": {
+   "all": {
+    "n_images": 1024,
+    "same_dish_cos": {
+     "mean": 0.6025784623591304,
+     "ci": [
+      0.5821128397917487,
+      0.6238587792422282
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.5432895736327297,
+      "France": 0.6656946980849824,
+      "India": 0.5510922581844535,
+      "Italy": 0.6781349525432738,
+      "Japan": 0.7365323904785048,
+      "Nigeria": 0.6081816975266905,
+      "Turkey": 0.5042411159259368,
+      "United States": 0.5334610124964714
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.26590383782460403,
+     "ci": [
+      0.24826088651291353,
+      0.2830349084040707
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.20369312743917833,
+      "France": 0.1555126412207971,
+      "India": 0.26872325926997986,
+      "Italy": 0.1729850521266612,
+      "Japan": 0.5754175860076661,
+      "Nigeria": 0.35150637717783356,
+      "Turkey": 0.2987743469094325,
+      "United States": 0.10061831244528316
+     }
+    },
+    "dish_gap": {
+     "mean": 0.33667462453452635,
+     "ci": [
+      0.2994076188241336,
+      0.373373348870216
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.3395964461935514,
+      "France": 0.5101820568641853,
+      "India": 0.28236899891447376,
+      "Italy": 0.5051499004166126,
+      "Japan": 0.16111480447083876,
+      "Nigeria": 0.2566753203488569,
+      "Turkey": 0.20546676901650432,
+      "United States": 0.4328427000511882
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.26064507492436473,
+     "ci": [
+      0.2525416002593891,
+      0.2688446564763207
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.19602133418021328,
+      "France": 0.1493243296692785,
+      "India": 0.2531900515933332,
+      "Italy": 0.18075020436142142,
+      "Japan": 0.5796911398003122,
+      "Nigeria": 0.3303826283699046,
+      "Turkey": 0.29157752394174835,
+      "United States": 0.10422338747870634
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.12883725108202343,
+     "ci": [
+      0.12299322068582941,
+      0.13452642382948463
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.15326146726533585,
+      "France": 0.11878464508070519,
+      "India": 0.15271720448855258,
+      "Italy": 0.11836074386200779,
+      "Japan": 0.10535073190526197,
+      "Nigeria": 0.1521372628674192,
+      "Turkey": 0.1541066692368631,
+      "United States": 0.07597928395004182
+     }
+    },
+    "country_gap": {
+     "mean": 0.1318078238423413,
+     "ci": [
+      0.12561799741410498,
+      0.13799032586212684
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.04275986691487742,
+      "France": 0.030539684588573326,
+      "India": 0.10047284710478059,
+      "Italy": 0.06238946049941365,
+      "Japan": 0.4743404078950503,
+      "Nigeria": 0.17824536550248543,
+      "Turkey": 0.13747085470488526,
+      "United States": 0.02824410352866452
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.5342934810430694,
+      "diff_dish_cos": 0.2010399521898112,
+      "dish_gap": 0.3332535288532582,
+      "same_country_diff_dish_cos": 0.19710675394714858,
+      "other_country_cos": 0.160030467704787,
+      "country_gap": 0.03707628624236159
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.5522856662223901,
+      "diff_dish_cos": 0.20634630268854545,
+      "dish_gap": 0.3459393635338446,
+      "same_country_diff_dish_cos": 0.19493591441327796,
+      "other_country_cos": 0.1464924668258847,
+      "country_gap": 0.048443447587393246
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.7109669485468628,
+      "diff_dish_cos": 0.134046455748058,
+      "dish_gap": 0.5769204927988048,
+      "same_country_diff_dish_cos": 0.13925405614610442,
+      "other_country_cos": 0.09359947673017927,
+      "country_gap": 0.045654579415925156
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.620422447623102,
+      "diff_dish_cos": 0.1769788266935362,
+      "dish_gap": 0.44344362092956574,
+      "same_country_diff_dish_cos": 0.1593946031924526,
+      "other_country_cos": 0.1439698134312311,
+      "country_gap": 0.015424789761221497
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 21,
+      "same_dish_cos": 0.5574470950742559,
+      "diff_dish_cos": 0.2591981977985497,
+      "dish_gap": 0.29824889727570625,
+      "same_country_diff_dish_cos": 0.24895449840153192,
+      "other_country_cos": 0.13968751038583377,
+      "country_gap": 0.10926698801569815
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 16,
+      "same_dish_cos": 0.5447374212946512,
+      "diff_dish_cos": 0.27824832074141,
+      "dish_gap": 0.2664891005532412,
+      "same_country_diff_dish_cos": 0.25742560478513443,
+      "other_country_cos": 0.1657468985912714,
+      "country_gap": 0.09167870619386304
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 26,
+      "same_dish_cos": 0.7170858028372699,
+      "diff_dish_cos": 0.15112244370275651,
+      "dish_gap": 0.5659633591345133,
+      "same_country_diff_dish_cos": 0.1706994912774864,
+      "other_country_cos": 0.1133948574459623,
+      "country_gap": 0.05730463383152411
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.6391841022492777,
+      "diff_dish_cos": 0.19484766055056593,
+      "dish_gap": 0.4443364416987118,
+      "same_country_diff_dish_cos": 0.19080091744535646,
+      "other_country_cos": 0.12332663027805327,
+      "country_gap": 0.06747428716730319
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.7509921785988151,
+      "diff_dish_cos": 0.5776960840327198,
+      "dish_gap": 0.1732960945660953,
+      "same_country_diff_dish_cos": 0.5810220984025648,
+      "other_country_cos": 0.10763067990407292,
+      "country_gap": 0.47339141849849187
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.7220726023581947,
+      "diff_dish_cos": 0.5731390879826125,
+      "dish_gap": 0.14893351437558222,
+      "same_country_diff_dish_cos": 0.5783601811980597,
+      "other_country_cos": 0.10307078390645101,
+      "country_gap": 0.47528939729160863
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.5339742885999529,
+      "diff_dish_cos": 0.4356575114043013,
+      "dish_gap": 0.09831677719565157,
+      "same_country_diff_dish_cos": 0.3711311109822173,
+      "other_country_cos": 0.16931800062619126,
+      "country_gap": 0.20181311035602603
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 23,
+      "same_dish_cos": 0.682389106453428,
+      "diff_dish_cos": 0.2673552429513658,
+      "dish_gap": 0.4150338635020622,
+      "same_country_diff_dish_cos": 0.28963414575759194,
+      "other_country_cos": 0.13495652510864714,
+      "country_gap": 0.1546776206489448
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.5372085824485412,
+      "diff_dish_cos": 0.25104937611573425,
+      "dish_gap": 0.28615920633280695,
+      "same_country_diff_dish_cos": 0.2696716265639344,
+      "other_country_cos": 0.15200028017541978,
+      "country_gap": 0.11767134638851462
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.4712736494033325,
+      "diff_dish_cos": 0.3464993177031308,
+      "dish_gap": 0.12477433170020169,
+      "same_country_diff_dish_cos": 0.3134834213195623,
+      "other_country_cos": 0.1562130582983064,
+      "country_gap": 0.1572703630212559
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.461419538825349,
+      "diff_dish_cos": 0.10529190553500134,
+      "dish_gap": 0.35612763329034763,
+      "same_country_diff_dish_cos": 0.10663523530802468,
+      "other_country_cos": 0.0709732732025248,
+      "country_gap": 0.03566196210549988
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.6055024861675938,
+      "diff_dish_cos": 0.09594471935556498,
+      "dish_gap": 0.5095577668120288,
+      "same_country_diff_dish_cos": 0.101811539649388,
+      "other_country_cos": 0.08098529469755883,
+      "country_gap": 0.020826244951829165
+     }
+    ]
+   },
+   "qwen_kept": {
+    "n_images": 674,
+    "same_dish_cos": {
+     "mean": 0.6425016139530424,
+     "ci": [
+      0.6183435687971957,
+      0.6672823272267492
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.558527805972042,
+      "France": 0.7118708448116203,
+      "India": 0.5663819589341804,
+      "Italy": 0.7555963300342793,
+      "Japan": 0.7278985946418037,
+      "Nigeria": 0.6704211205398294,
+      "Turkey": 0.5612953070361236,
+      "United States": 0.5880209496544605
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.22511737594546294,
+     "ci": [
+      0.2070428322241681,
+      0.24208056385071344
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.14522548009063713,
+      "France": 0.13463099622021768,
+      "India": 0.23953416117953008,
+      "Italy": 0.1540089700296338,
+      "Japan": 0.4782899824109018,
+      "Nigeria": 0.31134337778287874,
+      "Turkey": 0.24297054132183316,
+      "United States": 0.0949354985280712
+     }
+    },
+    "dish_gap": {
+     "mean": 0.41738423800757946,
+     "ci": [
+      0.37813627553896656,
+      0.45738819233515937
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.4133023258814048,
+      "France": 0.5772398485914026,
+      "India": 0.32684779775465034,
+      "Italy": 0.6015873600046455,
+      "Japan": 0.2496086122309019,
+      "Nigeria": 0.3590777427569506,
+      "Turkey": 0.31832476571429047,
+      "United States": 0.49308545112638935
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.21832694064549074,
+     "ci": [
+      0.21135020090435494,
+      0.22574958176825274
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.13730392730257432,
+      "France": 0.12252962276446211,
+      "India": 0.23312334104181748,
+      "Italy": 0.15784755559579983,
+      "Japan": 0.4907028484154744,
+      "Nigeria": 0.2725398217955104,
+      "Turkey": 0.23027180000100256,
+      "United States": 0.10229660824728483
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.11035710969171736,
+     "ci": [
+      0.10508244289896236,
+      0.11567074156857195
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.12258446957683249,
+      "France": 0.10843862873056627,
+      "India": 0.12932488732147054,
+      "Italy": 0.10440424943903501,
+      "Japan": 0.09657060342710035,
+      "Nigeria": 0.1253311588932826,
+      "Turkey": 0.12247830305598309,
+      "United States": 0.07372457708946853
+     }
+    },
+    "country_gap": {
+     "mean": 0.10796983095377338,
+     "ci": [
+      0.10162844555166711,
+      0.11387847128887213
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.014719457725741833,
+      "France": 0.01409099403389584,
+      "India": 0.10379845372034693,
+      "Italy": 0.05344330615676482,
+      "Japan": 0.39413224498837407,
+      "Nigeria": 0.14720866290222778,
+      "Turkey": 0.10779349694501947,
+      "United States": 0.028572031157816306
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 39,
+      "n_dishes": 14,
+      "same_dish_cos": 0.5669447034795613,
+      "diff_dish_cos": 0.12057118542827931,
+      "dish_gap": 0.44637351805128195,
+      "same_country_diff_dish_cos": 0.1287475673454122,
+      "other_country_cos": 0.12422741362411792,
+      "country_gap": 0.004520153721294287
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 45,
+      "n_dishes": 12,
+      "same_dish_cos": 0.5501109084645226,
+      "diff_dish_cos": 0.16987977475299493,
+      "dish_gap": 0.38023113371152767,
+      "same_country_diff_dish_cos": 0.14586028725973643,
+      "other_country_cos": 0.12094152552954705,
+      "country_gap": 0.02491876173018938
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 50,
+      "n_dishes": 15,
+      "same_dish_cos": 0.7802669404764283,
+      "diff_dish_cos": 0.12841019637146453,
+      "dish_gap": 0.6518567441049637,
+      "same_country_diff_dish_cos": 0.12019073555835921,
+      "other_country_cos": 0.08810444918663332,
+      "country_gap": 0.03208628637172589
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 46,
+      "n_dishes": 13,
+      "same_dish_cos": 0.6434747491468124,
+      "diff_dish_cos": 0.1408517960689708,
+      "dish_gap": 0.5026229530778415,
+      "same_country_diff_dish_cos": 0.124868509970565,
+      "other_country_cos": 0.12877280827449922,
+      "country_gap": -0.0039042983039342116
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 34,
+      "n_dishes": 15,
+      "same_dish_cos": 0.5724881959728119,
+      "diff_dish_cos": 0.2256070193318432,
+      "dish_gap": 0.3468811766409686,
+      "same_country_diff_dish_cos": 0.22511242176004628,
+      "other_country_cos": 0.11661006139527068,
+      "country_gap": 0.1085023603647756
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 50,
+      "n_dishes": 13,
+      "same_dish_cos": 0.560275721895549,
+      "diff_dish_cos": 0.2534613030272169,
+      "dish_gap": 0.30681441886833205,
+      "same_country_diff_dish_cos": 0.24113426032358867,
+      "other_country_cos": 0.1420397132476704,
+      "country_gap": 0.09909454707591828
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 60,
+      "n_dishes": 24,
+      "same_dish_cos": 0.7293446039423558,
+      "diff_dish_cos": 0.14446755073458578,
+      "dish_gap": 0.5848770532077701,
+      "same_country_diff_dish_cos": 0.1532512454200995,
+      "other_country_cos": 0.10335695720452417,
+      "country_gap": 0.049894288215575316
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 46,
+      "n_dishes": 17,
+      "same_dish_cos": 0.7818480561262028,
+      "diff_dish_cos": 0.1635503893246818,
+      "dish_gap": 0.618297666801521,
+      "same_country_diff_dish_cos": 0.16244386577150016,
+      "other_country_cos": 0.10545154167354584,
+      "country_gap": 0.05699232409795432
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 33,
+      "n_dishes": 10,
+      "same_dish_cos": 0.7580856019434875,
+      "diff_dish_cos": 0.4332292500414317,
+      "dish_gap": 0.3248563519020558,
+      "same_country_diff_dish_cos": 0.4768968321395795,
+      "other_country_cos": 0.099239712407835,
+      "country_gap": 0.37765711973174454
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 31,
+      "n_dishes": 13,
+      "same_dish_cos": 0.6977115873401198,
+      "diff_dish_cos": 0.5233507147803719,
+      "dish_gap": 0.17436087255974797,
+      "same_country_diff_dish_cos": 0.5045088646913694,
+      "other_country_cos": 0.0939014944463657,
+      "country_gap": 0.41060737024500366
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 22,
+      "n_dishes": 12,
+      "same_dish_cos": 0.6241015229956112,
+      "diff_dish_cos": 0.39243485403939177,
+      "dish_gap": 0.2316666689562194,
+      "same_country_diff_dish_cos": 0.30721278325596313,
+      "other_country_cos": 0.13983710956753348,
+      "country_gap": 0.16737567368842965
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 43,
+      "n_dishes": 15,
+      "same_dish_cos": 0.7167407180840476,
+      "diff_dish_cos": 0.23025190152636574,
+      "dish_gap": 0.48648881655768184,
+      "same_country_diff_dish_cos": 0.23786686033505763,
+      "other_country_cos": 0.11082520821903173,
+      "country_gap": 0.12704165211602592
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 36,
+      "n_dishes": 17,
+      "same_dish_cos": 0.6682786372301236,
+      "diff_dish_cos": 0.2125476714807609,
+      "dish_gap": 0.45573096574936267,
+      "same_country_diff_dish_cos": 0.21645887964262428,
+      "other_country_cos": 0.11573917581430566,
+      "country_gap": 0.10071970382831862
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 30,
+      "n_dishes": 11,
+      "same_dish_cos": 0.4543119768421237,
+      "diff_dish_cos": 0.27339341116290544,
+      "dish_gap": 0.18091856567921827,
+      "same_country_diff_dish_cos": 0.2440847203593808,
+      "other_country_cos": 0.1292174302976605,
+      "country_gap": 0.1148672900617203
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 49,
+      "n_dishes": 19,
+      "same_dish_cos": 0.5628535001397652,
+      "diff_dish_cos": 0.0957718675100327,
+      "dish_gap": 0.4670816326297325,
+      "same_country_diff_dish_cos": 0.10352784936801324,
+      "other_country_cos": 0.06436415197347901,
+      "country_gap": 0.03916369739453422
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 60,
+      "n_dishes": 17,
+      "same_dish_cos": 0.6131883991691558,
+      "diff_dish_cos": 0.0940991295461097,
+      "dish_gap": 0.5190892696230461,
+      "same_country_diff_dish_cos": 0.10106536712655642,
+      "other_country_cos": 0.08308500220545803,
+      "country_gap": 0.01798036492109839
+     }
+    ]
+   }
+  },
+  "flux-schnell": {
+   "all": {
+    "n_images": 1024,
+    "same_dish_cos": {
+     "mean": 0.5781793846203925,
+     "ci": [
+      0.5393721581234948,
+      0.6170475460460288
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.5505113409345526,
+      "France": 0.6814558916052198,
+      "India": 0.5084036611212903,
+      "Italy": 0.6653590632105022,
+      "Japan": 0.6031781481309253,
+      "Nigeria": 0.6544597843903249,
+      "Turkey": 0.39798246925216096,
+      "United States": 0.5640847183181643
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.20661724198176,
+     "ci": [
+      0.18843073668740032,
+      0.22431231875860533
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.1550268442453277,
+      "France": 0.1379435047051767,
+      "India": 0.18992175723167617,
+      "Italy": 0.14641529165566788,
+      "Japan": 0.3310434338188978,
+      "Nigeria": 0.3769331894092329,
+      "Turkey": 0.22784371120302835,
+      "United States": 0.08781020358507277
+     }
+    },
+    "dish_gap": {
+     "mean": 0.3715621426386325,
+     "ci": [
+      0.3260025379572116,
+      0.4171583217776607
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.3954844966892248,
+      "France": 0.5435123869000431,
+      "India": 0.3184819038896141,
+      "Italy": 0.5189437715548343,
+      "Japan": 0.2721347143120275,
+      "Nigeria": 0.277526594981092,
+      "Turkey": 0.17013875804913262,
+      "United States": 0.47627451473309157
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.20097076251438617,
+     "ci": [
+      0.1920860688298477,
+      0.21018701983386545
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.1447564573179085,
+      "France": 0.13273647851133025,
+      "India": 0.1766676803896609,
+      "Italy": 0.15267184383170096,
+      "Japan": 0.317662270400595,
+      "Nigeria": 0.35670802145283276,
+      "Turkey": 0.23082389659117827,
+      "United States": 0.09573945161988284
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.1176895523804957,
+     "ci": [
+      0.11063273556847127,
+      0.12474626165458269
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.13026847945813025,
+      "France": 0.11680788267305833,
+      "India": 0.11413932172195178,
+      "Italy": 0.10800046762963025,
+      "Japan": 0.12054508494594521,
+      "Nigeria": 0.12963969224430094,
+      "Turkey": 0.1405900301809915,
+      "United States": 0.08152546018995731
+     }
+    },
+    "country_gap": {
+     "mean": 0.0832812101338905,
+     "ci": [
+      0.0756387593095869,
+      0.09103139114231622
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.014487977859778275,
+      "France": 0.015928595838271907,
+      "India": 0.06252835866770913,
+      "Italy": 0.04467137620207072,
+      "Japan": 0.19711718545464982,
+      "Nigeria": 0.22706832920853182,
+      "Turkey": 0.09023386641018677,
+      "United States": 0.014213991429925535
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.5413495008285824,
+      "diff_dish_cos": 0.12379264680048613,
+      "dish_gap": 0.4175568540280962,
+      "same_country_diff_dish_cos": 0.1307295683265804,
+      "other_country_cos": 0.1274390965676198,
+      "country_gap": 0.003290471758960606
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.5596731810405227,
+      "diff_dish_cos": 0.1862610416901693,
+      "dish_gap": 0.37341213935035333,
+      "same_country_diff_dish_cos": 0.15878334630923663,
+      "other_country_cos": 0.13309786234864068,
+      "country_gap": 0.025685483960595945
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.7183801680040985,
+      "diff_dish_cos": 0.12876276240763895,
+      "dish_gap": 0.5896174055964596,
+      "same_country_diff_dish_cos": 0.1290913985650986,
+      "other_country_cos": 0.0899063503626178,
+      "country_gap": 0.039185048202480796
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.6445316152063411,
+      "diff_dish_cos": 0.14712424700271445,
+      "dish_gap": 0.49740736820362663,
+      "same_country_diff_dish_cos": 0.1363815584575619,
+      "other_country_cos": 0.14370941498349887,
+      "country_gap": -0.007327856525936982
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 21,
+      "same_dish_cos": 0.45823725387773906,
+      "diff_dish_cos": 0.22705660506986106,
+      "dish_gap": 0.231180648807878,
+      "same_country_diff_dish_cos": 0.19353414156627485,
+      "other_country_cos": 0.09993539563266773,
+      "country_gap": 0.09359874593360712
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 16,
+      "same_dish_cos": 0.5585700683648415,
+      "diff_dish_cos": 0.1527869093934913,
+      "dish_gap": 0.4057831589713502,
+      "same_country_diff_dish_cos": 0.15980121921304696,
+      "other_country_cos": 0.12834324781123582,
+      "country_gap": 0.03145797140181114
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 26,
+      "same_dish_cos": 0.7410130404375795,
+      "diff_dish_cos": 0.15887542281743972,
+      "dish_gap": 0.5821376176201398,
+      "same_country_diff_dish_cos": 0.1593064677909673,
+      "other_country_cos": 0.11380768459998819,
+      "country_gap": 0.04549878319097911
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.5897050859834249,
+      "diff_dish_cos": 0.13395516049389605,
+      "dish_gap": 0.4557499254895288,
+      "same_country_diff_dish_cos": 0.14603721987243465,
+      "other_country_cos": 0.10219325065927232,
+      "country_gap": 0.04384396921316233
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.6493263633254331,
+      "diff_dish_cos": 0.4042192102725811,
+      "dish_gap": 0.24510715305285202,
+      "same_country_diff_dish_cos": 0.3527381824106737,
+      "other_country_cos": 0.1367689989003404,
+      "country_gap": 0.21596918351033328
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.5570299329364174,
+      "diff_dish_cos": 0.2578676573652144,
+      "dish_gap": 0.29916227557120306,
+      "same_country_diff_dish_cos": 0.2825863583905164,
+      "other_country_cos": 0.10432117099155003,
+      "country_gap": 0.17826518739896635
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.53024840454298,
+      "diff_dish_cos": 0.4156073644701667,
+      "dish_gap": 0.11464104007281323,
+      "same_country_diff_dish_cos": 0.3772949743569094,
+      "other_country_cos": 0.14552263033128326,
+      "country_gap": 0.23177234402562613
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 23,
+      "same_dish_cos": 0.7786711642376699,
+      "diff_dish_cos": 0.3382590143482992,
+      "dish_gap": 0.4404121498893707,
+      "same_country_diff_dish_cos": 0.3361210685487561,
+      "other_country_cos": 0.11375675415731862,
+      "country_gap": 0.2223643143914375
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.44914712249128796,
+      "diff_dish_cos": 0.1867970723385533,
+      "dish_gap": 0.26235005015273466,
+      "same_country_diff_dish_cos": 0.21163439691014502,
+      "other_country_cos": 0.13009118514364174,
+      "country_gap": 0.08154321176650328
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.34681781601303396,
+      "diff_dish_cos": 0.2688903500675034,
+      "dish_gap": 0.07792746594553057,
+      "same_country_diff_dish_cos": 0.25001339627221153,
+      "other_country_cos": 0.15108887521834127,
+      "country_gap": 0.09892452105387026
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.4275421701538585,
+      "diff_dish_cos": 0.10496761032615061,
+      "dish_gap": 0.3225745598277079,
+      "same_country_diff_dish_cos": 0.1035380704677284,
+      "other_country_cos": 0.08770806516770657,
+      "country_gap": 0.01583000530002182
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.7006272664824702,
+      "diff_dish_cos": 0.07065279684399492,
+      "dish_gap": 0.6299744696384753,
+      "same_country_diff_dish_cos": 0.08794083277203729,
+      "other_country_cos": 0.07534285521220804,
+      "country_gap": 0.012597977559829249
+     }
+    ]
+   },
+   "qwen_kept": {
+    "n_images": 653,
+    "same_dish_cos": {
+     "mean": 0.6379264616688863,
+     "ci": [
+      0.5935097308639624,
+      0.6812745051496771
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.5942213541188416,
+      "France": 0.7295074525047338,
+      "India": 0.4752654791145975,
+      "Italy": 0.7902320888303851,
+      "Japan": 0.6778158788717291,
+      "Nigeria": 0.6824116427424268,
+      "Turkey": 0.5213777206749283,
+      "United States": 0.6325800764934484
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.17720808461038984,
+     "ci": [
+      0.16418029971144182,
+      0.19010426781149659
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.13104744177566965,
+      "France": 0.11383476760246702,
+      "India": 0.16111439613702927,
+      "Italy": 0.1206548494197025,
+      "Japan": 0.31344579911793086,
+      "Nigeria": 0.27207161588172796,
+      "Turkey": 0.21807499325782265,
+      "United States": 0.08742081369076883
+     }
+    },
+    "dish_gap": {
+     "mean": 0.4607183770584965,
+     "ci": [
+      0.4052866631880761,
+      0.5115857033987783
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.46317391234317196,
+      "France": 0.6156726849022669,
+      "India": 0.3141510829775682,
+      "Italy": 0.6695772394106827,
+      "Japan": 0.36437007975379826,
+      "Nigeria": 0.4103400268606989,
+      "Turkey": 0.3033027274171056,
+      "United States": 0.5451592628026796
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.17007454173743197,
+     "ci": [
+      0.16430330646161162,
+      0.17607176914607697
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.11962362339395835,
+      "France": 0.10434807318219663,
+      "India": 0.1516031863637512,
+      "Italy": 0.13470652657905435,
+      "Japan": 0.3036009437511222,
+      "Nigeria": 0.23862788499401447,
+      "Turkey": 0.21240714313791342,
+      "United States": 0.0956789524974452
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.09833664208771245,
+     "ci": [
+      0.09198572767417666,
+      0.10508601378862026
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.10548728237054937,
+      "France": 0.10286154053242874,
+      "India": 0.09934752148398861,
+      "Italy": 0.0929087654759537,
+      "Japan": 0.099622899023634,
+      "Nigeria": 0.10643816347577746,
+      "Turkey": 0.10771503329090606,
+      "United States": 0.07231193104846176
+     }
+    },
+    "country_gap": {
+     "mean": 0.07173789964971951,
+     "ci": [
+      0.06486964439187617,
+      0.07839422687393684
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.014136341023408987,
+      "France": 0.0014865326497679049,
+      "India": 0.0522556648797626,
+      "Italy": 0.04179776110310065,
+      "Japan": 0.20397804472748815,
+      "Nigeria": 0.132189721518237,
+      "Turkey": 0.10469210984700734,
+      "United States": 0.023367021448983442
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 38,
+      "n_dishes": 16,
+      "same_dish_cos": 0.6149753219185446,
+      "diff_dish_cos": 0.07665566593463628,
+      "dish_gap": 0.5383196559839084,
+      "same_country_diff_dish_cos": 0.09530681344179955,
+      "other_country_cos": 0.0981047467287993,
+      "country_gap": -0.0027979332869997597
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 44,
+      "n_dishes": 13,
+      "same_dish_cos": 0.5734673863191385,
+      "diff_dish_cos": 0.185439217616703,
+      "dish_gap": 0.3880281687024355,
+      "same_country_diff_dish_cos": 0.14394043334611717,
+      "other_country_cos": 0.11286981801229944,
+      "country_gap": 0.031070615333817733
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 45,
+      "n_dishes": 13,
+      "same_dish_cos": 0.7991065283030578,
+      "diff_dish_cos": 0.10121953479137268,
+      "dish_gap": 0.6978869935116851,
+      "same_country_diff_dish_cos": 0.09994473891929222,
+      "other_country_cos": 0.07531355621607284,
+      "country_gap": 0.024631182703219373
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 47,
+      "n_dishes": 13,
+      "same_dish_cos": 0.6599083767064099,
+      "diff_dish_cos": 0.12645000041356136,
+      "dish_gap": 0.5334583762928485,
+      "same_country_diff_dish_cos": 0.10875140744510106,
+      "other_country_cos": 0.13040952484878462,
+      "country_gap": -0.021658117403683563
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 40,
+      "n_dishes": 17,
+      "same_dish_cos": 0.41422306686641625,
+      "diff_dish_cos": 0.19036801082075297,
+      "dish_gap": 0.22385505604566328,
+      "same_country_diff_dish_cos": 0.16422166203170843,
+      "other_country_cos": 0.0898495101457028,
+      "country_gap": 0.07437215188600563
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 40,
+      "n_dishes": 12,
+      "same_dish_cos": 0.5363078913627788,
+      "diff_dish_cos": 0.1318607814533056,
+      "dish_gap": 0.4044471099094732,
+      "same_country_diff_dish_cos": 0.138984710695794,
+      "other_country_cos": 0.10884553282227441,
+      "country_gap": 0.03013917787351958
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 51,
+      "n_dishes": 20,
+      "same_dish_cos": 0.7777481862977226,
+      "diff_dish_cos": 0.12947294083925182,
+      "dish_gap": 0.6482752454584708,
+      "same_country_diff_dish_cos": 0.1392268721190734,
+      "other_country_cos": 0.0992848851270116,
+      "country_gap": 0.03994198699206179
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 44,
+      "n_dishes": 18,
+      "same_dish_cos": 0.8027159913630477,
+      "diff_dish_cos": 0.11183675800015318,
+      "dish_gap": 0.6908792333628946,
+      "same_country_diff_dish_cos": 0.1301861810390353,
+      "other_country_cos": 0.08653264582489578,
+      "country_gap": 0.043653535214139505
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 39,
+      "n_dishes": 15,
+      "same_dish_cos": 0.6662881958472019,
+      "diff_dish_cos": 0.34148521595055314,
+      "dish_gap": 0.32480297989664875,
+      "same_country_diff_dish_cos": 0.3168993866120716,
+      "other_country_cos": 0.10842956383207901,
+      "country_gap": 0.2084698227799926
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 41,
+      "n_dishes": 17,
+      "same_dish_cos": 0.6893435618962563,
+      "diff_dish_cos": 0.28540638228530857,
+      "dish_gap": 0.40393717961094777,
+      "same_country_diff_dish_cos": 0.29030250089017273,
+      "other_country_cos": 0.090816234215189,
+      "country_gap": 0.19948626667498373
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 21,
+      "n_dishes": 11,
+      "same_dish_cos": 0.5403154325012405,
+      "diff_dish_cos": 0.2989964687331959,
+      "dish_gap": 0.24131896376804457,
+      "same_country_diff_dish_cos": 0.24734556421497983,
+      "other_country_cos": 0.1231434264910916,
+      "country_gap": 0.12420213772388823
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 41,
+      "n_dishes": 14,
+      "same_dish_cos": 0.8245078529836132,
+      "diff_dish_cos": 0.24514676303026,
+      "dish_gap": 0.5793610899533532,
+      "same_country_diff_dish_cos": 0.2299102057730491,
+      "other_country_cos": 0.08973290046046332,
+      "country_gap": 0.14017730531258576
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 29,
+      "n_dishes": 15,
+      "same_dish_cos": 0.7138613890734306,
+      "diff_dish_cos": 0.20512004676530896,
+      "dish_gap": 0.5087413423081216,
+      "same_country_diff_dish_cos": 0.20558256583593573,
+      "other_country_cos": 0.0954629985482303,
+      "country_gap": 0.11011956728770543
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 31,
+      "n_dishes": 14,
+      "same_dish_cos": 0.328894052276426,
+      "diff_dish_cos": 0.2310299397503363,
+      "dish_gap": 0.09786411252608967,
+      "same_country_diff_dish_cos": 0.2192317204398911,
+      "other_country_cos": 0.11996706803358183,
+      "country_gap": 0.09926465240630926
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 47,
+      "n_dishes": 20,
+      "same_dish_cos": 0.5798454084851441,
+      "diff_dish_cos": 0.10577894076448632,
+      "dish_gap": 0.47406646772065775,
+      "same_country_diff_dish_cos": 0.10429248953836565,
+      "other_country_cos": 0.07047831375011701,
+      "country_gap": 0.033814175788248635
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 55,
+      "n_dishes": 15,
+      "same_dish_cos": 0.6853147445017527,
+      "diff_dish_cos": 0.06906268661705134,
+      "dish_gap": 0.6162520578847013,
+      "same_country_diff_dish_cos": 0.08706541545652474,
+      "other_country_cos": 0.07414554834680649,
+      "country_gap": 0.01291986710971825
+     }
+    ]
+   }
+  },
+  "pixart-sigma": {
+   "all": {
+    "n_images": 1024,
+    "same_dish_cos": {
+     "mean": 0.6624024871211843,
+     "ci": [
+      0.6388396095925881,
+      0.6868750275920188
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.568483792636651,
+      "France": 0.7229133945821326,
+      "India": 0.560206857711518,
+      "Italy": 0.7888844160146733,
+      "Japan": 0.6427777771260728,
+      "Nigeria": 0.7095407841903529,
+      "Turkey": 0.6495773218327346,
+      "United States": 0.6568355528753397
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.2677305869360498,
+     "ci": [
+      0.24032988229959143,
+      0.2937051527319937
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.22262003699789973,
+      "France": 0.22775629450710208,
+      "India": 0.2800542385100012,
+      "Italy": 0.15757606822722542,
+      "Japan": 0.33451943466990564,
+      "Nigeria": 0.440895596858245,
+      "Turkey": 0.36419861394398945,
+      "United States": 0.11422441177402953
+     }
+    },
+    "dish_gap": {
+     "mean": 0.3946719001851346,
+     "ci": [
+      0.3497074568745549,
+      0.4408091347209671
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.3458637556387514,
+      "France": 0.49515710007503044,
+      "India": 0.2801526192015168,
+      "Italy": 0.6313083477874479,
+      "Japan": 0.30825834245616707,
+      "Nigeria": 0.268645187332108,
+      "Turkey": 0.2853787078887452,
+      "United States": 0.5426111411013101
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.2607497355481835,
+     "ci": [
+      0.24743602445840976,
+      0.27317871215239886
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.2184187803077769,
+      "France": 0.2076730316245258,
+      "India": 0.27142825548816796,
+      "Italy": 0.1714425552199194,
+      "Japan": 0.3389608026385613,
+      "Nigeria": 0.4130148367255023,
+      "Turkey": 0.3545471632232246,
+      "United States": 0.11051245915778948
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.20409306427109983,
+     "ci": [
+      0.19079452716497344,
+      0.21726571652975418
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.21718954939613225,
+      "France": 0.1798681011334166,
+      "India": 0.21162390593902686,
+      "Italy": 0.1749216730849224,
+      "Japan": 0.21392931122748557,
+      "Nigeria": 0.25003719589498175,
+      "Turkey": 0.24747504860245795,
+      "United States": 0.13769972889037524
+     }
+    },
+    "country_gap": {
+     "mean": 0.05665667127708363,
+     "ci": [
+      0.0473733506171132,
+      0.06555947175676476
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.0012292309116446326,
+      "France": 0.0278049304911092,
+      "India": 0.05980434954914106,
+      "Italy": -0.0034791178650029897,
+      "Japan": 0.12503149141107575,
+      "Nigeria": 0.16297764083052055,
+      "Turkey": 0.10707211462076666,
+      "United States": -0.027187269732585777
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.592390103869267,
+      "diff_dish_cos": 0.24119035075730708,
+      "dish_gap": 0.35119975311195994,
+      "same_country_diff_dish_cos": 0.22888997063552924,
+      "other_country_cos": 0.2269383715625523,
+      "country_gap": 0.0019515990729769284
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.5445774814040352,
+      "diff_dish_cos": 0.2040497232384924,
+      "dish_gap": 0.34052775816554276,
+      "same_country_diff_dish_cos": 0.20794758998002452,
+      "other_country_cos": 0.20744072722971219,
+      "country_gap": 0.0005068627503123369
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.7067200958649588,
+      "diff_dish_cos": 0.21571736706291733,
+      "dish_gap": 0.49100272880204143,
+      "same_country_diff_dish_cos": 0.20297722954109967,
+      "other_country_cos": 0.1326162362436831,
+      "country_gap": 0.07036099329741657
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 64,
+      "n_dishes": 18,
+      "same_dish_cos": 0.7391066932993063,
+      "diff_dish_cos": 0.23979522195128683,
+      "dish_gap": 0.4993114713480195,
+      "same_country_diff_dish_cos": 0.21236883370795193,
+      "other_country_cos": 0.2271199660231501,
+      "country_gap": -0.014751132315198173
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 21,
+      "same_dish_cos": 0.5163022010863868,
+      "diff_dish_cos": 0.25497281976500297,
+      "dish_gap": 0.26132938132138384,
+      "same_country_diff_dish_cos": 0.25833584204808285,
+      "other_country_cos": 0.1862494879437175,
+      "country_gap": 0.07208635410436534
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 64,
+      "n_dishes": 16,
+      "same_dish_cos": 0.6041115143366491,
+      "diff_dish_cos": 0.3051356572549994,
+      "dish_gap": 0.2989758570816497,
+      "same_country_diff_dish_cos": 0.284520668928253,
+      "other_country_cos": 0.23699832393433623,
+      "country_gap": 0.047522344993916776
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 26,
+      "same_dish_cos": 0.7984815186831661,
+      "diff_dish_cos": 0.15292583095344395,
+      "dish_gap": 0.6455556877297222,
+      "same_country_diff_dish_cos": 0.16916666925920365,
+      "other_country_cos": 0.17313239464908797,
+      "country_gap": -0.0039657253898843225
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.7792873133461806,
+      "diff_dish_cos": 0.1622263055010069,
+      "dish_gap": 0.6170610078451737,
+      "same_country_diff_dish_cos": 0.17371844118063515,
+      "other_country_cos": 0.1767109515207568,
+      "country_gap": -0.002992510340121657
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 20,
+      "same_dish_cos": 0.7003189126201691,
+      "diff_dish_cos": 0.33516430892538607,
+      "dish_gap": 0.36515460369478303,
+      "same_country_diff_dish_cos": 0.34027987769467966,
+      "other_country_cos": 0.2237947863864087,
+      "country_gap": 0.11648509130827095
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.5852366416319763,
+      "diff_dish_cos": 0.3338745604144252,
+      "dish_gap": 0.2513620812175511,
+      "same_country_diff_dish_cos": 0.337641727582443,
+      "other_country_cos": 0.20406383606856243,
+      "country_gap": 0.13357789151388055
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.6309347748989854,
+      "diff_dish_cos": 0.5446377720631644,
+      "dish_gap": 0.08629700283582098,
+      "same_country_diff_dish_cos": 0.4645196686745612,
+      "other_country_cos": 0.282836724733222,
+      "country_gap": 0.18168294394133916
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 64,
+      "n_dishes": 23,
+      "same_dish_cos": 0.7881467934817206,
+      "diff_dish_cos": 0.3371534216533255,
+      "dish_gap": 0.45099337182839505,
+      "same_country_diff_dish_cos": 0.36151000477644346,
+      "other_country_cos": 0.21723766705674152,
+      "country_gap": 0.14427233771970194
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.6942007034229687,
+      "diff_dish_cos": 0.26014532710233357,
+      "dish_gap": 0.4340553763206351,
+      "same_country_diff_dish_cos": 0.3083557006146144,
+      "other_country_cos": 0.21550522939913652,
+      "country_gap": 0.0928504712154779
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 64,
+      "n_dishes": 19,
+      "same_dish_cos": 0.6049539402425006,
+      "diff_dish_cos": 0.4682519007856454,
+      "dish_gap": 0.13670203945685522,
+      "same_country_diff_dish_cos": 0.4007386258318348,
+      "other_country_cos": 0.2794448678057794,
+      "country_gap": 0.12129375802605541
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 22,
+      "same_dish_cos": 0.5830028349068409,
+      "diff_dish_cos": 0.140225988542882,
+      "dish_gap": 0.44277684636395886,
+      "same_country_diff_dish_cos": 0.123061243743089,
+      "other_country_cos": 0.17057017364004332,
+      "country_gap": -0.04750892989695432
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 64,
+      "n_dishes": 17,
+      "same_dish_cos": 0.7306682708438385,
+      "diff_dish_cos": 0.08822283500517704,
+      "dish_gap": 0.6424454358386614,
+      "same_country_diff_dish_cos": 0.09796367457248996,
+      "other_country_cos": 0.10482928414070719,
+      "country_gap": -0.006865609568217232
+     }
+    ]
+   },
+   "qwen_kept": {
+    "n_images": 572,
+    "same_dish_cos": {
+     "mean": 0.710441256304799,
+     "ci": [
+      0.688282676978454,
+      0.7327318802846815
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.5779291816403991,
+      "France": 0.7539494377215672,
+      "India": 0.5910384723238611,
+      "Italy": 0.8692909613669246,
+      "Japan": 0.7137428475350712,
+      "Nigeria": 0.7567091631462068,
+      "Turkey": 0.7028665966554134,
+      "United States": 0.7180033900489489
+     }
+    },
+    "diff_dish_cos": {
+     "mean": 0.21320751122323675,
+     "ci": [
+      0.19417585529647188,
+      0.23222360245349555
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.14476587503746985,
+      "France": 0.20257213403667806,
+      "India": 0.24297167498206387,
+      "Italy": 0.12365870670583624,
+      "Japan": 0.28616529585181605,
+      "Nigeria": 0.3371075298184598,
+      "Turkey": 0.2682526977098461,
+      "United States": 0.10016617564372397
+     }
+    },
+    "dish_gap": {
+     "mean": 0.4972337450815623,
+     "ci": [
+      0.4581921205788213,
+      0.5347357165458225
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.4331633066029293,
+      "France": 0.551377303684889,
+      "India": 0.34806679734179713,
+      "Italy": 0.7456322546610883,
+      "Japan": 0.4275775516832552,
+      "Nigeria": 0.419601633327747,
+      "Turkey": 0.4346138989455673,
+      "United States": 0.6178372144052249
+     }
+    },
+    "same_country_diff_dish_cos": {
+     "mean": 0.2017389276209281,
+     "ci": [
+      0.1936600835890453,
+      0.20974048990904798
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.14401399945458593,
+      "France": 0.1632886832674676,
+      "India": 0.23167540844722642,
+      "Italy": 0.1393300533199382,
+      "Japan": 0.28218197613014295,
+      "Nigeria": 0.2853890053600929,
+      "Turkey": 0.2616285440458105,
+      "United States": 0.10640375094216031
+     }
+    },
+    "other_country_cos": {
+     "mean": 0.14819096144506544,
+     "ci": [
+      0.13785418089440968,
+      0.15838081474958868
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": 0.15233471880149035,
+      "France": 0.13879660209769595,
+      "India": 0.16018377950201426,
+      "Italy": 0.12997641304306085,
+      "Japan": 0.158934497992391,
+      "Nigeria": 0.17982917901606044,
+      "Turkey": 0.1696594571826867,
+      "United States": 0.09581304392512388
+     }
+    },
+    "country_gap": {
+     "mean": 0.053547966175862674,
+     "ci": [
+      0.04422354027564251,
+      0.06270096226636493
+     ],
+     "n_pools": 16,
+     "by_country": {
+      "Brazil": -0.008320719346904426,
+      "France": 0.02449208116977164,
+      "India": 0.07149162894521216,
+      "Italy": 0.009353640276877358,
+      "Japan": 0.12324747813775197,
+      "Nigeria": 0.10555982634403244,
+      "Turkey": 0.09196908686312377,
+      "United States": 0.01059070701703644
+     }
+    },
+    "pools": [
+     {
+      "pool_seed": 500000,
+      "country": "Brazil",
+      "n": 33,
+      "n_dishes": 14,
+      "same_dish_cos": 0.6373731401078889,
+      "diff_dish_cos": 0.1284322948369471,
+      "dish_gap": 0.5089408452709419,
+      "same_country_diff_dish_cos": 0.13881171269679773,
+      "other_country_cos": 0.1544429665838931,
+      "country_gap": -0.015631253887095353
+     },
+     {
+      "pool_seed": 500001,
+      "country": "Brazil",
+      "n": 43,
+      "n_dishes": 11,
+      "same_dish_cos": 0.5184852231729093,
+      "diff_dish_cos": 0.16109945523799263,
+      "dish_gap": 0.3573857679349167,
+      "same_country_diff_dish_cos": 0.1492162862123741,
+      "other_country_cos": 0.1502264710190876,
+      "country_gap": -0.0010101848067134989
+     },
+     {
+      "pool_seed": 501000,
+      "country": "France",
+      "n": 31,
+      "n_dishes": 10,
+      "same_dish_cos": 0.7473187269087888,
+      "diff_dish_cos": 0.2122253099296299,
+      "dish_gap": 0.5350934169791588,
+      "same_country_diff_dish_cos": 0.16430642464858458,
+      "other_country_cos": 0.09723096668594025,
+      "country_gap": 0.06707545796264433
+     },
+     {
+      "pool_seed": 501001,
+      "country": "France",
+      "n": 45,
+      "n_dishes": 13,
+      "same_dish_cos": 0.7605801485343455,
+      "diff_dish_cos": 0.1929189581437262,
+      "dish_gap": 0.5676611903906194,
+      "same_country_diff_dish_cos": 0.16227094188635063,
+      "other_country_cos": 0.18036223750945168,
+      "country_gap": -0.01809129562310105
+     },
+     {
+      "pool_seed": 502000,
+      "country": "India",
+      "n": 36,
+      "n_dishes": 17,
+      "same_dish_cos": 0.5227267993457794,
+      "diff_dish_cos": 0.23345280843719024,
+      "dish_gap": 0.28927399090858913,
+      "same_country_diff_dish_cos": 0.22715642064537553,
+      "other_country_cos": 0.14438478269165478,
+      "country_gap": 0.08277163795372075
+     },
+     {
+      "pool_seed": 502001,
+      "country": "India",
+      "n": 33,
+      "n_dishes": 13,
+      "same_dish_cos": 0.6593501453019427,
+      "diff_dish_cos": 0.2524905415269375,
+      "dish_gap": 0.4068596037750052,
+      "same_country_diff_dish_cos": 0.23619439624907732,
+      "other_country_cos": 0.17598277631237375,
+      "country_gap": 0.06021161993670357
+     },
+     {
+      "pool_seed": 503000,
+      "country": "Italy",
+      "n": 47,
+      "n_dishes": 18,
+      "same_dish_cos": 0.8499250623994906,
+      "diff_dish_cos": 0.1286924242896797,
+      "dish_gap": 0.7212326381098109,
+      "same_country_diff_dish_cos": 0.14094602150112634,
+      "other_country_cos": 0.13653856149072807,
+      "country_gap": 0.0044074600103982675
+     },
+     {
+      "pool_seed": 503001,
+      "country": "Italy",
+      "n": 41,
+      "n_dishes": 18,
+      "same_dish_cos": 0.8886568603343585,
+      "diff_dish_cos": 0.11862498912199279,
+      "dish_gap": 0.7700318712123657,
+      "same_country_diff_dish_cos": 0.13771408513875008,
+      "other_country_cos": 0.12341426459539363,
+      "country_gap": 0.014299820543356448
+     },
+     {
+      "pool_seed": 504000,
+      "country": "Japan",
+      "n": 37,
+      "n_dishes": 13,
+      "same_dish_cos": 0.7420155166362563,
+      "diff_dish_cos": 0.24477888437758072,
+      "dish_gap": 0.4972366322586756,
+      "same_country_diff_dish_cos": 0.2650166347651933,
+      "other_country_cos": 0.17142931054257912,
+      "country_gap": 0.0935873242226142
+     },
+     {
+      "pool_seed": 504001,
+      "country": "Japan",
+      "n": 29,
+      "n_dishes": 12,
+      "same_dish_cos": 0.6854701784338861,
+      "diff_dish_cos": 0.3275517073260514,
+      "dish_gap": 0.35791847110783476,
+      "same_country_diff_dish_cos": 0.29934731749509264,
+      "other_country_cos": 0.1464396854422029,
+      "country_gap": 0.15290763205288974
+     },
+     {
+      "pool_seed": 505000,
+      "country": "Nigeria",
+      "n": 16,
+      "n_dishes": 8,
+      "same_dish_cos": 0.6826826424746137,
+      "diff_dish_cos": 0.43250778030035825,
+      "dish_gap": 0.2501748621742555,
+      "same_country_diff_dish_cos": 0.3259482853307594,
+      "other_country_cos": 0.21056561618569952,
+      "country_gap": 0.1153826691450599
+     },
+     {
+      "pool_seed": 505001,
+      "country": "Nigeria",
+      "n": 40,
+      "n_dishes": 14,
+      "same_dish_cos": 0.8307356838177998,
+      "diff_dish_cos": 0.24170727933656136,
+      "dish_gap": 0.5890284044812385,
+      "same_country_diff_dish_cos": 0.24482972538942632,
+      "other_country_cos": 0.14909274184642135,
+      "country_gap": 0.09573698354300497
+     },
+     {
+      "pool_seed": 506000,
+      "country": "Turkey",
+      "n": 41,
+      "n_dishes": 19,
+      "same_dish_cos": 0.7388524184542193,
+      "diff_dish_cos": 0.2329107316955711,
+      "dish_gap": 0.5059416867586483,
+      "same_country_diff_dish_cos": 0.24486269011187414,
+      "other_country_cos": 0.15079090293857791,
+      "country_gap": 0.09407178717329623
+     },
+     {
+      "pool_seed": 506001,
+      "country": "Turkey",
+      "n": 20,
+      "n_dishes": 11,
+      "same_dish_cos": 0.6668807748566075,
+      "diff_dish_cos": 0.30359466372412114,
+      "dish_gap": 0.3632861111324863,
+      "same_country_diff_dish_cos": 0.27839439797974685,
+      "other_country_cos": 0.18852801142679554,
+      "country_gap": 0.08986638655295132
+     },
+     {
+      "pool_seed": 507000,
+      "country": "United States",
+      "n": 32,
+      "n_dishes": 15,
+      "same_dish_cos": 0.6905526727723144,
+      "diff_dish_cos": 0.11154448705121327,
+      "dish_gap": 0.5790081857211011,
+      "same_country_diff_dish_cos": 0.11370936929262004,
+      "other_country_cos": 0.09961685049354871,
+      "country_gap": 0.014092518799071335
+     },
+     {
+      "pool_seed": 507001,
+      "country": "United States",
+      "n": 48,
+      "n_dishes": 14,
+      "same_dish_cos": 0.7454541073255834,
+      "diff_dish_cos": 0.08878786423623468,
+      "dish_gap": 0.6566662430893487,
+      "same_country_diff_dish_cos": 0.09909813259170058,
+      "other_country_cos": 0.09200923735669904,
+      "country_gap": 0.007088895235001544
+     }
+    ]
+   }
+  }
+ }
+}

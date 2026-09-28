@@ -1,0 +1,36 @@
+{
+  "config": "configs/pilot.yaml",
+  "budget": {
+    "prompt_strings": 16,
+    "images_per_model": 4096,
+    "models": 2,
+    "images_total": 8192,
+    "pools_per_country": 8,
+    "human_annotated_images": 2048
+  },
+  "warnings": [],
+  "prompts": [
+    "cuisine|Brazil|A",
+    "cuisine|Brazil|B",
+    "cuisine|France|A",
+    "cuisine|France|B",
+    "cuisine|India|A",
+    "cuisine|India|B",
+    "cuisine|Italy|A",
+    "cuisine|Italy|B",
+    "cuisine|Japan|A",
+    "cuisine|Japan|B",
+    "cuisine|Nigeria|A",
+    "cuisine|Nigeria|B",
+    "cuisine|Turkey|A",
+    "cuisine|Turkey|B",
+    "cuisine|United States|A",
+    "cuisine|United States|B"
+  ],
+  "unavailable_backends": [
+    "generator (stabilityai/stable-diffusion-xl-base-1.0): ModuleNotFoundError: No module named 'diffusers'",
+    "scorer (pickscore): NotImplementedError: Implemented in run.py's --backend real path; see README for the exact checkpoints and the per-scorer affine-form check t",
+    "geotagger (Qwen/Qwen2.5-VL-7B-Instruct): NotImplementedError: Open VLM geo-tagger (Qwen2.5-VL / InternVL). See README."
+  ],
+  "ready_to_run": false
+}

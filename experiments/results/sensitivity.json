@@ -1,0 +1,40 @@
+{
+ "readers": [
+  "qwen",
+  "pixtral",
+  "siglip"
+ ],
+ "complete_reader_set": true,
+ "diversity_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": true,
+  "flux-schnell|pickscore": true,
+  "flux-schnell|imagereward": false
+ },
+ "faithfulness_robust": {
+  "sdxl|pickscore": true,
+  "sdxl|imagereward": true,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ },
+ "faithfulness_within_dish_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": false,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ },
+ "a3_frozen_config_gain_robust": {
+  "sdxl|pickscore|stk": false,
+  "sdxl|pickscore|mmr": false,
+  "sdxl|pickscore|dpp": false,
+  "sdxl|imagereward|stk": false,
+  "sdxl|imagereward|mmr": false,
+  "sdxl|imagereward|dpp": true,
+  "flux-schnell|pickscore|stk": false,
+  "flux-schnell|pickscore|mmr": false,
+  "flux-schnell|pickscore|dpp": false,
+  "flux-schnell|imagereward|stk": false,
+  "flux-schnell|imagereward|mmr": false,
+  "flux-schnell|imagereward|dpp": true
+ }
+}

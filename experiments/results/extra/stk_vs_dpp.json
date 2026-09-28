@@ -1,0 +1,7094 @@
+{
+ "status": "post hoc, descriptive",
+ "frontier_n_null": 2000,
+ "cells": [
+  {
+   "generator": "sdxl",
+   "selector": "pickscore",
+   "judge": "imagereward",
+   "chosen": {
+    "stk": 4,
+    "mmr": 0.7,
+    "dpp": 4.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 4,
+     "dpp_param": 4.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.008174215298548154,
+      "bootstrap_ci": [
+       -0.03705480258662579,
+       0.020737244816677894
+      ],
+      "ci": [
+       -0.04383794109670873,
+       0.02748951049961242
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.004199796519969823,
+      "bootstrap_ci": [
+       -0.015690798305604402,
+       0.006536019809072956
+      ],
+      "ci": [
+       -0.018370922090114955,
+       0.00997132905017531
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": 0.0351927081857348,
+      "bootstrap_ci": [
+       0.021675517000326685,
+       0.04925777167379202
+      ],
+      "ci": [
+       0.018863604800195995,
+       0.0515218115712736
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.03309367048569058,
+      "bootstrap_ci": [
+       0.0005127672564010344,
+       0.06564569562851387
+      ],
+      "ci": [
+       -0.006935991710787341,
+       0.0731233326821685
+      ]
+     },
+     "dominance_emb_delta": "STK dominates",
+     "dominance_delta": "neither (tie)"
+    },
+    "mmr": {
+     "stk_param": 4,
+     "mmr_param": 0.7,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.019630687136200923,
+      "bootstrap_ci": [
+       -0.048495534199223485,
+       0.00936985758977153
+      ],
+      "ci": [
+       -0.054480728921192254,
+       0.015219354648790411
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.00838913205643621,
+      "bootstrap_ci": [
+       -0.01924605145238729,
+       0.0025563179778600835
+      ],
+      "ci": [
+       -0.021823935116441262,
+       0.0050456710035688395
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": 0.058859600931403015,
+      "bootstrap_ci": [
+       0.04488451138490099,
+       0.07226472835430059
+      ],
+      "ci": [
+       0.04246636924904841,
+       0.07525283261375762
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.04626189821416349,
+      "bootstrap_ci": [
+       0.015008922597001532,
+       0.07684177874651395
+      ],
+      "ci": [
+       0.007991300083046125,
+       0.08453249634528084
+      ]
+     },
+     "dominance_emb_delta": "STK dominates",
+     "dominance_delta": "STK dominates"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.5397669004223011,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.004,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.006,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.5286070648992494,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2545,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2555,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.49943094465837257,
+      "emb_delta": {
+       "value": -0.02055724333576833,
+       "ci": [
+        -0.09528920929292861,
+        0.0688755471616491
+       ],
+       "boot_finite_frac": 0.9395,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": -0.0012227016211529551,
+       "ci": [
+        -0.04959233015393951,
+        0.058048741004221076
+       ],
+       "boot_finite_frac": 0.929,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.4657213529740879,
+      "emb_delta": {
+       "value": -0.12462610263770765,
+       "ci": [
+        -0.17812448942381426,
+        -0.03899772195458498
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": -0.0498483066908956,
+       "ci": [
+        -0.08431816156402039,
+        -0.001616252297602068
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.468988489365624,
+      "emb_delta": {
+       "value": -0.11117864344583778,
+       "ci": [
+        -0.16964003676210584,
+        -0.02448974680401257
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": -0.045786916967893665,
+       "ci": [
+        -0.09098412817520056,
+        0.011521852477390754
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.432223910784883,
+      "emb_delta": {
+       "value": -0.17441560654736896,
+       "ci": [
+        -0.20191274672077963,
+        -0.12878822482641566
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": -0.06865184303448306,
+       "ci": [
+        -0.10738841982759866,
+        -0.02727515346397166
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3736790943590643,
+      "emb_delta": {
+       "value": -0.2159373477373593,
+       "ci": [
+        -0.24371028757334315,
+        -0.18848573618261397
+       ],
+       "boot_finite_frac": 0.9955,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": -0.09295763943965667,
+       "ci": [
+        -0.12781472491159757,
+        -0.056799184214808604
+       ],
+       "boot_finite_frac": 0.997,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3265319151041485,
+        0.5200189667716275
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.5397669004223011,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0095,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.015,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.5286070648992494,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.278,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2755,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.49943094465837257,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.298,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.4657213529740879,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.012,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0095,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.468988489365624,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0155,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0155,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.432223910784883,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3736790943590643,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5075407667181544,
+        0.5200189667716275
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.5076051599569207,
+      "emb_delta": {
+       "value": 0.03113091841076676,
+       "ci": [
+        0.012951959692447711,
+        0.04479132416809951
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.03370504968991873,
+       "ci": [
+        0.003960219697354596,
+        0.06342687416881088
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.5071844258018173,
+      "emb_delta": {
+       "value": 0.001855815640630351,
+       "ci": [
+        -0.018233630204630855,
+        0.014777074875585767
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.01893375258814755,
+       "ci": [
+        -0.010506247537775768,
+        0.04735263123885934
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.4898084988481329,
+      "emb_delta": {
+       "value": -0.05608615165722075,
+       "ci": [
+        -0.07417051291659833,
+        -0.04141729275428596
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": -0.025573573116122076,
+       "ci": [
+        -0.054830338053502535,
+        0.0036274075329241454
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.4489548520750446,
+      "emb_delta": {
+       "value": -0.16135551192632178,
+       "ci": [
+        -0.17908450389287717,
+        -0.14438627088516628
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": -0.06403607929820176,
+       "ci": [
+        -0.10236466476785427,
+        -0.02402239979347503
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.3265319151041485,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.003,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0055,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.5177640576130675,
+      "emb_delta": {
+       "value": 0.05993254441468925,
+       "ci": [
+        0.034531267185865876,
+        0.0772075074782889
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.046689621630878225,
+       "ci": [
+        0.017883714883599827,
+        0.07333173867772871
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.519440436306545,
+      "emb_delta": {
+       "value": 0.052496520484325626,
+       "ci": [
+        0.025448338757830584,
+        0.07078404647910654
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.04924708138970103,
+       "ci": [
+        0.02342216109911738,
+        0.0731547987953623
+       ],
+       "boot_finite_frac": 0.997,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.5190616317945734,
+      "emb_delta": {
+       "value": 0.04910505919580921,
+       "ci": [
+        0.02349350567215265,
+        0.06763187953771659
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.04773014849158329,
+       "ci": [
+        0.02085632551454899,
+        0.07259593128156575
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.5199533168386998,
+      "emb_delta": {
+       "value": 0.04590933634029133,
+       "ci": [
+        0.019602227537981968,
+        0.06436198159101918
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.0425112856806722,
+       "ci": [
+        0.01573972615564536,
+        0.06681225409174779
+       ],
+       "boot_finite_frac": 0.998,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.5173226347496991,
+      "emb_delta": {
+       "value": 0.03325075257294157,
+       "ci": [
+        0.009614110017957528,
+        0.04940515794079219
+       ],
+       "boot_finite_frac": 0.996,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.040798570552296,
+       "ci": [
+        0.011788109761660715,
+        0.06824440190538253
+       ],
+       "boot_finite_frac": 0.9955,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.5082222042620557,
+      "emb_delta": {
+       "value": 0.021457397670788587,
+       "ci": [
+        0.0035556553278991306,
+        0.03461192390943529
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.03400906973547819,
+       "ci": [
+        0.007345900086495014,
+        0.06113173825713515
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.5075407667181544,
+      "emb_delta": {
+       "value": 0.0009385902085099172,
+       "ci": [
+        -0.018921628647380527,
+        0.015109954078822716
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      },
+      "delta": {
+       "value": 0.016276006260567404,
+       "ci": [
+        -0.011170648293459545,
+        0.0429328453193089
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3736790943590643,
+        0.5397669004223011
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "sdxl",
+   "selector": "imagereward",
+   "judge": "pickscore",
+   "chosen": {
+    "stk": 16,
+    "mmr": 0.5,
+    "dpp": 1.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 16,
+     "dpp_param": 1.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.10050029438653554,
+      "bootstrap_ci": [
+       -0.1397585742650691,
+       -0.06257830144911734
+      ],
+      "ci": [
+       -0.1472331664567621,
+       -0.053767422316309
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.06371425278484821,
+      "bootstrap_ci": [
+       -0.08858108595013618,
+       -0.03686151420697571
+      ],
+      "ci": [
+       -0.09438719588912264,
+       -0.03304130968057378
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.10011996616309421,
+      "bootstrap_ci": [
+       -0.1151880952949485,
+       -0.08438790887519022
+      ],
+      "ci": [
+       -0.1190128386095582,
+       -0.08122709371663021
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.027470263274482876,
+      "bootstrap_ci": [
+       -0.060391360369947085,
+       0.004877870856273472
+      ],
+      "ci": [
+       -0.0685996514854994,
+       0.013659124936533658
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "STK dominated"
+    },
+    "mmr": {
+     "stk_param": 16,
+     "mmr_param": 0.5,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.16286875420136837,
+      "bootstrap_ci": [
+       -0.19985122060222754,
+       -0.12687861476095633
+      ],
+      "ci": [
+       -0.2074090760351316,
+       -0.11832843236760514
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.10661689564585686,
+      "bootstrap_ci": [
+       -0.13144220048561692,
+       -0.08130301418714231
+      ],
+      "ci": [
+       -0.13643033723670756,
+       -0.07680345405500616
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": 0.011563234474737064,
+      "bootstrap_ci": [
+       -0.002353591538186871,
+       0.026227208551392104
+      ],
+      "ci": [
+       -0.005796216193620314,
+       0.028922685143094443
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.01664089175335435,
+      "bootstrap_ci": [
+       -0.017876676435238856,
+       0.050937535683489445
+      ],
+      "ci": [
+       -0.027235756656123267,
+       0.060517540162831965
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "STK dominated"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.5304800839179035,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3005,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.316,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.503710814744213,
+      "emb_delta": {
+       "value": -0.019492956783886274,
+       "ci": [
+        -0.07557147623458524,
+        0.016431928524782126
+       ],
+       "boot_finite_frac": 0.926,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": 0.018441740286859937,
+       "ci": [
+        -0.012122698467889072,
+        0.04336781568216747
+       ],
+       "boot_finite_frac": 0.928,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4812068803834916,
+      "emb_delta": {
+       "value": -0.05827831224200811,
+       "ci": [
+        -0.11242331955955907,
+        0.0009336656916594046
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": 0.0003869017923699078,
+       "ci": [
+        -0.025359556323715633,
+        0.03829708654337808
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.47557983583766833,
+      "emb_delta": {
+       "value": -0.06960260513304656,
+       "ci": [
+        -0.12892178321064898,
+        -0.006346630175975641
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": -0.004676608321701092,
+       "ci": [
+        -0.02828940951212844,
+        0.02518998937791525
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.4436875461585509,
+      "emb_delta": {
+       "value": -0.12062983412418515,
+       "ci": [
+        -0.1656678687927988,
+        -0.07264397290578016
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": -0.011214842694221606,
+       "ci": [
+        -0.03416154467736817,
+        0.01690227856562044
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.39156549654298645,
+      "emb_delta": {
+       "value": -0.18760914893359465,
+       "ci": [
+        -0.21869877714214964,
+        -0.1519780211397311
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": -0.027876618899153636,
+       "ci": [
+        -0.052607281001420654,
+        -0.0027077307818611685
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3505524071950653,
+      "emb_delta": {
+       "value": -0.2029972663421413,
+       "ci": [
+        -0.2283522517554465,
+        -0.17093398409484653
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": -0.046470392381037326,
+       "ci": [
+        -0.0760236200556894,
+        -0.017444083850941778
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22134570984485402,
+        0.5250880091449801
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.5304800839179035,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.302,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3175,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.503710814744213,
+      "emb_delta": {
+       "value": -0.02517619801060319,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7945,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": 0.014919571069769683,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.78,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4812068803834916,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.337,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3365,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.47557983583766833,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2445,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.234,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.4436875461585509,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.002,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0025,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.39156549654298645,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3505524071950653,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.48807539994988913,
+        0.5250880091449801
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.5072405620123669,
+      "emb_delta": {
+       "value": -0.012346228495702709,
+       "ci": [
+        -0.02157568893468403,
+        -0.0020096560880986944
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.019956739574288285,
+       "ci": [
+        -0.004065631980232741,
+        0.04047555043314805
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.48973876672648353,
+      "emb_delta": {
+       "value": -0.046393626717194617,
+       "ci": [
+        -0.05739710344289901,
+        -0.03635535015736478
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.004969261539954358,
+       "ci": [
+        -0.019689088356137016,
+        0.028978689033300076
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.4510527015816009,
+      "emb_delta": {
+       "value": -0.11182512384100635,
+       "ci": [
+        -0.12701898415207885,
+        -0.09894132253292552
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": -0.01287713958746645,
+       "ci": [
+        -0.03894828610611962,
+        0.009671041101364531
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.37832189787301135,
+      "emb_delta": {
+       "value": -0.19835942851274402,
+       "ci": [
+        -0.21607631492558965,
+        -0.18008643102729519
+       ],
+       "boot_finite_frac": 0.9145,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": -0.03313533051403015,
+       "ci": [
+        -0.06375062816567173,
+        -0.003650262038810684
+       ],
+       "boot_finite_frac": 0.9105,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.22134570984485402,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.5225878148314052,
+      "emb_delta": {
+       "value": 0.013608942629420903,
+       "ci": [
+        -0.0023147232696432278,
+        0.022916678933831352
+       ],
+       "boot_finite_frac": 0.984,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.02430116419515692,
+       "ci": [
+        0.002058912817715876,
+        0.047733391220658464
+       ],
+       "boot_finite_frac": 0.972,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.5183127815182267,
+      "emb_delta": {
+       "value": 0.009405319530733224,
+       "ci": [
+        -0.004626123553601377,
+        0.019374852985555607
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.029626487010876876,
+       "ci": [
+        0.008188594123854722,
+        0.05277787068777741
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.5185613012634703,
+      "emb_delta": {
+       "value": 0.0055861839132439126,
+       "ci": [
+        -0.00892480555819224,
+        0.015723468706999363
+       ],
+       "boot_finite_frac": 0.9915,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.022069906643532408,
+       "ci": [
+        -0.0005431253184906314,
+        0.04519905572162011
+       ],
+       "boot_finite_frac": 0.991,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.513576077205216,
+      "emb_delta": {
+       "value": 0.002968524518097003,
+       "ci": [
+        -0.008740227336056224,
+        0.013637753707121647
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.025928318000124344,
+       "ci": [
+        0.0035764625762436334,
+        0.049377883147226326
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.5134211613964337,
+      "emb_delta": {
+       "value": -0.008516779483274249,
+       "ci": [
+        -0.018131088346117784,
+        0.0008736839193880055
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.011317012129468805,
+       "ci": [
+        -0.009243470950559909,
+        0.032779037930454114
+       ],
+       "boot_finite_frac": 0.996,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.5062472576002857,
+      "emb_delta": {
+       "value": -0.02183660299580522,
+       "ci": [
+        -0.03086299267871812,
+        -0.011827672874211968
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.01350766311891342,
+       "ci": [
+        -0.009479992848673074,
+        0.035771444944320614
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.48807539994988913,
+      "emb_delta": {
+       "value": -0.04420843268311928,
+       "ci": [
+        -0.05658506878189522,
+        -0.033756998531087344
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      },
+      "delta": {
+       "value": 0.015257495152069603,
+       "ci": [
+        -0.012366765999446689,
+        0.04353756349855538
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3505524071950653,
+        0.5304800839179035
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "flux-schnell",
+   "selector": "pickscore",
+   "judge": "imagereward",
+   "chosen": {
+    "stk": 4,
+    "mmr": 0.4,
+    "dpp": 2.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 4,
+     "dpp_param": 2.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.025219562496379487,
+      "bootstrap_ci": [
+       -0.05180309651322888,
+       0.0012918263698489941
+      ],
+      "ci": [
+       -0.05691822559044136,
+       0.006479100597682384
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.00835653503145295,
+      "bootstrap_ci": [
+       -0.015942638154569977,
+       -0.0008705241031066191
+      ],
+      "ci": [
+       -0.017939695184971315,
+       0.0012266251220654154
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.03784324263980626,
+      "bootstrap_ci": [
+       -0.051719933730913464,
+       -0.02348637456808136
+      ],
+      "ci": [
+       -0.05495669897920788,
+       -0.020729786300404646
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.0070593837141965515,
+      "bootstrap_ci": [
+       -0.0325955372527155,
+       0.01788617540525448
+      ],
+      "ci": [
+       -0.03760470357534215,
+       0.023485936146949053
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    },
+    "mmr": {
+     "stk_param": 4,
+     "mmr_param": 0.4,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.025736288188528512,
+      "bootstrap_ci": [
+       -0.05158255155037922,
+       -0.002216264150632989
+      ],
+      "ci": [
+       -0.05558542824481488,
+       0.004112851867757859
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.007607921317855926,
+      "bootstrap_ci": [
+       -0.014354895378781407,
+       -0.0009492328255419167
+      ],
+      "ci": [
+       -0.016177429996635524,
+       0.0009615873609236728
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.010815567707841409,
+      "bootstrap_ci": [
+       -0.025281703874063494,
+       0.00419553074863589
+      ],
+      "ci": [
+       -0.028291753040271175,
+       0.006660617624588357
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.011119489419821644,
+      "bootstrap_ci": [
+       -0.012734832836234212,
+       0.03722019747196076
+      ],
+      "ci": [
+       -0.01937746962567504,
+       0.04161644846531833
+      ]
+     },
+     "dominance_emb_delta": "neither (tie)",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.4979137519146601,
+      "emb_delta": {
+       "value": -0.08830413091006523,
+       "ci": [
+        -0.1649871544120345,
+        -0.007481858838220231
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.031085038151226152,
+       "ci": [
+        -0.06372873205531666,
+        -0.002761438913653163
+       ],
+       "boot_finite_frac": 0.9945,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.46360501301810303,
+      "emb_delta": {
+       "value": -0.15778249726191623,
+       "ci": [
+        -0.21985996756799694,
+        -0.09154688704985604
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.04146754665188586,
+       "ci": [
+        -0.08785052047066708,
+        -0.003585994804767579
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4813640735802224,
+      "emb_delta": {
+       "value": -0.1198381499733211,
+       "ci": [
+        -0.16856234382888305,
+        -0.0404153250170062
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.025494574966248865,
+       "ci": [
+        -0.06770513028137036,
+        0.005439367124158481
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.46232094986700434,
+      "emb_delta": {
+       "value": -0.1482319971763671,
+       "ci": [
+        -0.19697013507805788,
+        -0.09410046196936293
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.05841783923817813,
+       "ci": [
+        -0.10063961481751738,
+        -0.019701930988164196
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.4723672135437338,
+      "emb_delta": {
+       "value": -0.1266640341802252,
+       "ci": [
+        -0.18166194073223377,
+        -0.02376211122878114
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.031707694239161054,
+       "ci": [
+        -0.07333801030770204,
+        0.004371824788358029
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.4345478088774062,
+      "emb_delta": {
+       "value": -0.1937355965181356,
+       "ci": [
+        -0.24605526235266148,
+        -0.12473811286573072
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.06299757492345176,
+       "ci": [
+        -0.1077003309325118,
+        -0.016686289195124382
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.4181433336883346,
+      "emb_delta": {
+       "value": -0.21738903905412674,
+       "ci": [
+        -0.2522961186651662,
+        -0.13476523698111012
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.07606537184992887,
+       "ci": [
+        -0.10591423510421126,
+        -0.02519160096674812
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.261131876086425,
+        0.5216505895988963
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.4979137519146601,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3755,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.358,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.46360501301810303,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4813640735802224,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.046,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.045,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.46232094986700434,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0005,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.4723672135437338,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.03,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.026,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.4345478088774062,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.4181433336883346,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.5051260165848441,
+        0.5248586936231675
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.5176568543159068,
+      "emb_delta": {
+       "value": -0.03107344837495707,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.76,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.02163747048862409,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7535,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.5065836360766018,
+      "emb_delta": {
+       "value": -0.06633742190365664,
+       "ci": [
+        -0.08104412922616008,
+        -0.03492480795707637
+       ],
+       "boot_finite_frac": 0.958,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.0302353282781076,
+       "ci": [
+        -0.04771991569631178,
+        -0.004279347780749787
+       ],
+       "boot_finite_frac": 0.9625,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.4811785625123213,
+      "emb_delta": {
+       "value": -0.12035413649455597,
+       "ci": [
+        -0.14892806851450668,
+        -0.09903054096944398
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.025591506365935865,
+       "ci": [
+        -0.06051360079336241,
+        0.001839679259902203
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.4168826876660904,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.499,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.261131876086425,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.5236707830360147,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.109,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.107,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.5219605346137152,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4785,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4695,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.5248586936231675,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2075,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2175,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.5126915121150624,
+      "emb_delta": {
+       "value": -0.014227531370150481,
+       "ci": [
+        -0.0226771974401444,
+        0.001804846100215431
+       ],
+       "boot_finite_frac": 0.976,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.008367664201619746,
+       "ci": [
+        -0.01618715102683532,
+        0.00726192326275413
+       ],
+       "boot_finite_frac": 0.975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.5199272794588279,
+      "emb_delta": {
+       "value": -0.03171033110543629,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.6445,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.01192835504544533,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.633,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.5071003617687508,
+      "emb_delta": {
+       "value": -0.039680530011048154,
+       "ci": [
+        -0.05185920617838679,
+        -0.017000433575396177
+       ],
+       "boot_finite_frac": 0.9825,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.012383532528441196,
+       "ci": [
+        -0.025695685079033005,
+        0.011401568046370839
+       ],
+       "boot_finite_frac": 0.983,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.5051260165848441,
+      "emb_delta": {
+       "value": -0.0748935590789821,
+       "ci": [
+        -0.08920197375685052,
+        -0.04822672503253907
+       ],
+       "boot_finite_frac": 0.968,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      },
+      "delta": {
+       "value": -0.032395842091331895,
+       "ci": [
+        -0.04930465188107101,
+        -0.006934757679878469
+       ],
+       "boot_finite_frac": 0.9755,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.4181433336883346,
+        0.5216505895988963
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "flux-schnell",
+   "selector": "imagereward",
+   "judge": "pickscore",
+   "chosen": {
+    "stk": 2,
+    "mmr": 0.7,
+    "dpp": 4.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 2,
+     "dpp_param": 4.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.02654064498853989,
+      "bootstrap_ci": [
+       0.0035692914537607695,
+       0.050782145927330796
+      ],
+      "ci": [
+       -0.002607985498885211,
+       0.05568927547596499
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.014922039583325386,
+      "bootstrap_ci": [
+       0.002777842665091157,
+       0.0274560326244682
+      ],
+      "ci": [
+       0.0003180251050125746,
+       0.029526054061638198
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.06043883413352315,
+      "bootstrap_ci": [
+       -0.07478109787288666,
+       -0.045554176773711555
+      ],
+      "ci": [
+       -0.07842644162446379,
+       -0.04245122664258251
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.03117754533513453,
+      "bootstrap_ci": [
+       -0.045092018015718646,
+       -0.01700204122475994
+      ],
+      "ci": [
+       -0.04864667916546199,
+       -0.013708411504807064
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "STK dominated"
+    },
+    "mmr": {
+     "stk_param": 2,
+     "mmr_param": 0.7,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.0027278300607378667,
+      "bootstrap_ci": [
+       -0.025808489745672656,
+       0.02116135691202261
+      ],
+      "ci": [
+       -0.031761229982846716,
+       0.026305569861370982
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.00012728385627269745,
+      "bootstrap_ci": [
+       -0.011921116895973683,
+       0.011212331894785162
+      ],
+      "ci": [
+       -0.014181092820059278,
+       0.013926525107513884
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.0344809192934647,
+      "bootstrap_ci": [
+       -0.05072465194359522,
+       -0.017967242742287597
+      ],
+      "ci": [
+       -0.05477427202204843,
+       -0.01418756656488097
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.01138705709484895,
+      "bootstrap_ci": [
+       -0.022768255243611882,
+       0.0009720812563945575
+      ],
+      "ci": [
+       -0.025523172489765995,
+       0.0027490583000680958
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.4836365253197928,
+      "emb_delta": {
+       "value": -0.030808413914920733,
+       "ci": [
+        -0.05937931584784717,
+        -0.011848675759391197
+       ],
+       "boot_finite_frac": 0.9155,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.011689392274238361,
+       "ci": [
+        -0.030805164783214482,
+        0.0019592930206784737
+       ],
+       "boot_finite_frac": 0.9025,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.467099808328288,
+      "emb_delta": {
+       "value": -0.04261187930208637,
+       "ci": [
+        -0.0792379172447924,
+        -0.010718530584681451
+       ],
+       "boot_finite_frac": 0.9885,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.007592655278765105,
+       "ci": [
+        -0.029223182170560552,
+        0.01711510504242269
+       ],
+       "boot_finite_frac": 0.9855,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4751700088378671,
+      "emb_delta": {
+       "value": -0.036731553948278955,
+       "ci": [
+        -0.07347926587288278,
+        -0.007200767211162681
+       ],
+       "boot_finite_frac": 0.9605,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.008726226487279186,
+       "ci": [
+        -0.033414968671063756,
+        0.011089584413540509
+       ],
+       "boot_finite_frac": 0.9585,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.45051254936593027,
+      "emb_delta": {
+       "value": -0.055109476745332155,
+       "ci": [
+        -0.08660826495526967,
+        -0.024636440561036
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.034418815101327514,
+       "ci": [
+        -0.05422007906887482,
+        -0.012103829576709258
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.457830247531126,
+      "emb_delta": {
+       "value": -0.04242121074341634,
+       "ci": [
+        -0.08098597309565714,
+        -0.0057176180081474366
+       ],
+       "boot_finite_frac": 0.977,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.017407362247091968,
+       "ci": [
+        -0.04147048054024903,
+        0.013113238770141405
+       ],
+       "boot_finite_frac": 0.9835,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.4283429847763588,
+      "emb_delta": {
+       "value": -0.09156866062127342,
+       "ci": [
+        -0.11451039071238536,
+        -0.050214021849350844
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.02943146394583624,
+       "ci": [
+        -0.0562492060798808,
+        -0.0033903414661107696
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3998443735772893,
+      "emb_delta": {
+       "value": -0.10609814220567806,
+       "ci": [
+        -0.13122057700524295,
+        -0.07621394495814411
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.04196515465777615,
+       "ci": [
+        -0.06728580869263949,
+        -0.015251154863499563
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.037700640186708476,
+        0.49934545925801294
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.4836365253197928,
+      "emb_delta": {
+       "value": -0.036691546779476183,
+       "ci": [
+        -0.05549480879063079,
+        -0.008466650467152004
+       ],
+       "boot_finite_frac": 0.918,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.012255311200293904,
+       "ci": [
+        -0.024847693554835123,
+        0.0034823397469832982
+       ],
+       "boot_finite_frac": 0.9045,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.467099808328288,
+      "emb_delta": {
+       "value": -0.043362493758621196,
+       "ci": [
+        -0.07182077101937158,
+        -0.009842705571313268
+       ],
+       "boot_finite_frac": 0.989,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.001380044452419675,
+       "ci": [
+        -0.022499555309532262,
+        0.017645403468608153
+       ],
+       "boot_finite_frac": 0.9855,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.4751700088378671,
+      "emb_delta": {
+       "value": -0.040023772475917596,
+       "ci": [
+        -0.06716222272996464,
+        -0.006796915640365875
+       ],
+       "boot_finite_frac": 0.961,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.005770235450582112,
+       "ci": [
+        -0.024496925485013456,
+        0.013122372697720501
+       ],
+       "boot_finite_frac": 0.959,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.45051254936593027,
+      "emb_delta": {
+       "value": -0.051463142706828925,
+       "ci": [
+        -0.07936032612266658,
+        -0.027585512345411005
+       ],
+       "boot_finite_frac": 0.998,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.026406882764998904,
+       "ci": [
+        -0.05021827674012751,
+        -0.007236224669348952
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.457830247531126,
+      "emb_delta": {
+       "value": -0.04024582157274364,
+       "ci": [
+        -0.07332651410330167,
+        -0.0055540470397275115
+       ],
+       "boot_finite_frac": 0.975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.007463463098202228,
+       "ci": [
+        -0.03740689715154812,
+        0.016215397024799297
+       ],
+       "boot_finite_frac": 0.9825,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.4283429847763588,
+      "emb_delta": {
+       "value": -0.08301844950575535,
+       "ci": [
+        -0.1047190799847362,
+        -0.05209519498351981
+       ],
+       "boot_finite_frac": 0.949,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.026147279635775483,
+       "ci": [
+        -0.05051714259329856,
+        0.00406473235370548
+       ],
+       "boot_finite_frac": 0.944,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.3998443735772893,
+      "emb_delta": {
+       "value": -0.10039458921003558,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.536,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.033891339907627174,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5385,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.39818540883075715,
+        0.49934545925801294
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.4570958803312529,
+      "emb_delta": {
+       "value": -0.043631747378833435,
+       "ci": [
+        -0.06879063757341229,
+        -0.0325462167664349
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.01798220899475858,
+       "ci": [
+        -0.0408906709812562,
+        -0.0024828373503814746
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.4272635837484401,
+      "emb_delta": {
+       "value": -0.09257392175548401,
+       "ci": [
+        -0.10610417303068469,
+        -0.06698623799927453
+       ],
+       "boot_finite_frac": 0.903,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.029864919161260835,
+       "ci": [
+        -0.052035601509293594,
+        -0.008471748457029917
+       ],
+       "boot_finite_frac": 0.926,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.3351105344468077,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0015,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.19875091024831149,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.037700640186708476,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.49063840743079074,
+      "emb_delta": {
+       "value": -0.011145505804668686,
+       "ci": [
+        -0.029525652346535446,
+        0.0004703447087984804
+       ],
+       "boot_finite_frac": 0.979,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.003074144390024805,
+       "ci": [
+        -0.011033997814803109,
+        0.01728736061621946
+       ],
+       "boot_finite_frac": 0.98,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.48785781309194765,
+      "emb_delta": {
+       "value": -0.016395277570908397,
+       "ci": [
+        -0.03265863808870222,
+        0.00025797943224669523
+       ],
+       "boot_finite_frac": 0.993,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.0032931662932151745,
+       "ci": [
+        -0.010807752264176998,
+        0.019122189467449785
+       ],
+       "boot_finite_frac": 0.99,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.4863643553805307,
+      "emb_delta": {
+       "value": -0.032176484960973015,
+       "ci": [
+        -0.04604953459597777,
+        -0.014434680747079901
+       ],
+       "boot_finite_frac": 0.9765,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.011360193282308736,
+       "ci": [
+        -0.018846672378592787,
+        0.0104452049846544
+       ],
+       "boot_finite_frac": 0.9765,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.4745669085420742,
+      "emb_delta": {
+       "value": -0.040278659436136316,
+       "ci": [
+        -0.053422691841595794,
+        -0.019932679991542003
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.005434643415925235,
+       "ci": [
+        -0.022793215259851857,
+        0.0094343321962949
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.45657100704122366,
+      "emb_delta": {
+       "value": -0.04192407511424869,
+       "ci": [
+        -0.06613080795081556,
+        -0.029969949951070933
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.007942285589113716,
+       "ci": [
+        -0.029698726087702524,
+        0.007289264009348684
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.4352719196634373,
+      "emb_delta": {
+       "value": -0.07369481963399632,
+       "ci": [
+        -0.09107249957997869,
+        -0.05109955865383115
+       ],
+       "boot_finite_frac": 0.962,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": -0.024287835025842107,
+       "ci": [
+        -0.0466481443298813,
+        -0.003802768507026716
+       ],
+       "boot_finite_frac": 0.9695,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.39818540883075715,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4545,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.472,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3998443735772893,
+        0.49934545925801294
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "pixart-sigma",
+   "selector": "pickscore",
+   "judge": "imagereward",
+   "chosen": {
+    "stk": 4,
+    "mmr": 0.9,
+    "dpp": 2.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 4,
+     "dpp_param": 2.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.01098083470085265,
+      "bootstrap_ci": [
+       -0.040043433294783014,
+       0.02048143408780768
+      ],
+      "ci": [
+       -0.047464627405984526,
+       0.02550295800427923
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.0019764054081861104,
+      "bootstrap_ci": [
+       -0.008413964815883902,
+       0.004032140836955022
+      ],
+      "ci": [
+       -0.009298910018292476,
+       0.005346099201920255
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.03777825540797068,
+      "bootstrap_ci": [
+       -0.04819313108704142,
+       -0.027844060890865857
+      ],
+      "ci": [
+       -0.05052467174111244,
+       -0.025031839074828918
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.0044773699072093685,
+      "bootstrap_ci": [
+       -0.012002612613588771,
+       0.019498696191431
+      ],
+      "ci": [
+       -0.014362235186515526,
+       0.023316975000934263
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    },
+    "mmr": {
+     "stk_param": 4,
+     "mmr_param": 0.9,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.01772412117946911,
+      "bootstrap_ci": [
+       -0.011348785142991534,
+       0.04856695761789574
+      ],
+      "ci": [
+       -0.019158585898819407,
+       0.054606828257757624
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.004065922738391237,
+      "bootstrap_ci": [
+       -0.002722640998638326,
+       0.010353324129937388
+      ],
+      "ci": [
+       -0.003844575511820998,
+       0.011976420988603471
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": 0.009379746853913164,
+      "bootstrap_ci": [
+       -0.00176723091726813,
+       0.02059620379088507
+      ],
+      "ci": [
+       -0.00458747704114801,
+       0.023346970748974336
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.0052903168759583594,
+      "bootstrap_ci": [
+       -0.01167495612077894,
+       0.021779730084117536
+      ],
+      "ci": [
+       -0.015514962191323861,
+       0.026095595943240582
+      ]
+     },
+     "dominance_emb_delta": "neither (tie)",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.3201092688164692,
+      "emb_delta": {
+       "value": -0.0786263253055828,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8255,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.018315417959548053,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.817,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.3090579917550331,
+      "emb_delta": {
+       "value": -0.08920840815053739,
+       "ci": [
+        -0.16468146137570713,
+        -0.04031376931770229
+       ],
+       "boot_finite_frac": 0.9435,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.022070899312952103,
+       "ci": [
+        -0.04141536341292442,
+        -0.0014869342108330202
+       ],
+       "boot_finite_frac": 0.9475,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.32186386775318176,
+      "emb_delta": {
+       "value": -0.06526443356079517,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.777,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.002469265078389078,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.755,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.31898671637127085,
+      "emb_delta": {
+       "value": -0.057442369792896165,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8145,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.003830689130110275,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.27687955096888184,
+      "emb_delta": {
+       "value": -0.1450983160142887,
+       "ci": [
+        -0.22395126022370526,
+        -0.089295308081779
+       ],
+       "boot_finite_frac": 0.9855,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.01772127116446885,
+       "ci": [
+        -0.04455824060026195,
+        0.0019167332066962622
+       ],
+       "boot_finite_frac": 0.984,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2626321699174742,
+      "emb_delta": {
+       "value": -0.18201388547286057,
+       "ci": [
+        -0.2421457213666529,
+        -0.11779515433171601
+       ],
+       "boot_finite_frac": 0.931,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": -0.02713083763077069,
+       "ci": [
+        -0.049888967540388414,
+        -0.004085805047267112
+       ],
+       "boot_finite_frac": 0.938,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.22327040033437995,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.346,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.347,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.23198418458846867,
+        0.3328447024540344
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.3201092688164692,
+      "emb_delta": {
+       "value": -0.022768202194603446,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.706,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": -0.014280428921950562,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7005,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.3090579917550331,
+      "emb_delta": {
+       "value": 0.008299955496420569,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.575,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": -0.006864136079002707,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.584,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.32186386775318176,
+      "emb_delta": {
+       "value": -0.015734983027329848,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.584,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": 0.000646988432324469,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5875,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.31898671637127085,
+      "emb_delta": {
+       "value": 0.002464693921032733,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.584,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": 0.0007920859767791555,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.588,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.27687955096888184,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.032,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.035,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2626321699174742,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.008,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0085,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.22327040033437995,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.30406607989759915,
+        0.3299763034323667
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.31623786727478487,
+      "emb_delta": {
+       "value": 0.007325507927120237,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8345,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.003850141774010968,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.84,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.3328447024540344,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.384,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.383,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.313533629129252,
+      "emb_delta": {
+       "value": -0.07139694284606882,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8665,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": -0.0065967609465948165,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8715,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.2747989528567147,
+      "emb_delta": {
+       "value": -0.14991142485967654,
+       "ci": [
+        -0.16344494621154387,
+        -0.1367815780165615
+       ],
+       "boot_finite_frac": 0.9925,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": -0.018594071301487984,
+       "ci": [
+        -0.0374207306072396,
+        0.0002770481538996814
+       ],
+       "boot_finite_frac": 0.9955,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.23198418458846867,
+      "emb_delta": {
+       "value": -0.2494256511725565,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.637,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": -0.04151899771800083,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.6615,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.3041397465737127,
+      "emb_delta": {
+       "value": 0.023573410304975846,
+       "ci": [
+        0.00053529738893574,
+        0.03656935210359268
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.007610321225901433,
+       "ci": [
+        -0.009144796261769565,
+        0.020918415421415676
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.30406607989759915,
+      "emb_delta": {
+       "value": 0.021422028121427822,
+       "ci": [
+        0.0012878828436695953,
+        0.03392453629515215
+       ],
+       "boot_finite_frac": 0.9925,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.008452069238439941,
+       "ci": [
+        -0.008266080792598857,
+        0.02401825720481506
+       ],
+       "boot_finite_frac": 0.992,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.3069369476120912,
+      "emb_delta": {
+       "value": 0.01815914579104868,
+       "ci": [
+        -0.00154862792981414,
+        0.030103655100651966
+       ],
+       "boot_finite_frac": 0.9715,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.008185370763384832,
+       "ci": [
+        -0.006108706003919084,
+        0.02335139120392694
+       ],
+       "boot_finite_frac": 0.968,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.3141206674983724,
+      "emb_delta": {
+       "value": 0.014613038128028007,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.868,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.005022960162969624,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.88,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.31303610921117314,
+      "emb_delta": {
+       "value": 0.008700233963625681,
+       "ci": [
+        -0.012321718926729897,
+        0.01922654866247713
+       ],
+       "boot_finite_frac": 0.9,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": 0.0008894790455318824,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.897,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.3227034894495061,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.676,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.686,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.3299763034323667,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4555,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.4655,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.22327040033437995,
+        0.32186386775318176
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "pixart-sigma",
+   "selector": "imagereward",
+   "judge": "pickscore",
+   "chosen": {
+    "stk": 12,
+    "mmr": 0.4,
+    "dpp": 1.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 12,
+     "dpp_param": 1.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.03600769884269326,
+      "bootstrap_ci": [
+       -0.006605311557093612,
+       0.0803775623836922
+      ],
+      "ci": [
+       -0.01676122411826266,
+       0.08877662180364917
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.014587275683879852,
+      "bootstrap_ci": [
+       0.000737544009461999,
+       0.028226289665326473
+      ],
+      "ci": [
+       -0.002376695250938324,
+       0.03155124661869803
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.08476574987477636,
+      "bootstrap_ci": [
+       -0.0967048394403428,
+       -0.07347173121623712
+      ],
+      "ci": [
+       -0.0990167315706399,
+       -0.07051476817891283
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.019821722014221745,
+      "bootstrap_ci": [
+       -0.03866431005582489,
+       0.0006420312065165363
+      ],
+      "ci": [
+       -0.0431201050152043,
+       0.003476660986760815
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    },
+    "mmr": {
+     "stk_param": 12,
+     "mmr_param": 0.4,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.00980328541415583,
+      "bootstrap_ci": [
+       -0.0527032366054269,
+       0.03295291165330715
+      ],
+      "ci": [
+       -0.06074269471945249,
+       0.04113612389114083
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": -0.0023945067077875137,
+      "bootstrap_ci": [
+       -0.015339300176128745,
+       0.010473320027813312
+      ],
+      "ci": [
+       -0.01881139496054098,
+       0.014022381544965951
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.023656467915294455,
+      "bootstrap_ci": [
+       -0.035816667217122414,
+       -0.011846199523115318
+      ],
+      "ci": [
+       -0.03851059125860966,
+       -0.008802344571979254
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.008780548590059311,
+      "bootstrap_ci": [
+       -0.028242568229368797,
+       0.011758224057051571
+      ],
+      "ci": [
+       -0.03413702784549826,
+       0.016575930665379643
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.2942468182079657,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.164,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.176,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.2813818336077323,
+      "emb_delta": {
+       "value": 0.006318196069473269,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.523,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": 0.002825030194856054,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.562,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.28939439359350144,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3055,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.304,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.2537747592859143,
+      "emb_delta": {
+       "value": -0.0542043408543689,
+       "ci": [
+        -0.085080009119651,
+        -0.0017262635835238265
+       ],
+       "boot_finite_frac": 0.993,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": -0.010821123219693148,
+       "ci": [
+        -0.02739361585732295,
+        0.004450768050861381
+       ],
+       "boot_finite_frac": 0.9885,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.24575818722036144,
+      "emb_delta": {
+       "value": -0.05919130446973159,
+       "ci": [
+        -0.1000718398929109,
+        0.0018511884361326902
+       ],
+       "boot_finite_frac": 0.986,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": -0.009558357810441847,
+       "ci": [
+        -0.0287413416937135,
+        0.009664805474004086
+       ],
+       "boot_finite_frac": 0.995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2529422912360419,
+      "emb_delta": {
+       "value": -0.05110474420073591,
+       "ci": [
+        -0.09301133308262947,
+        0.01253566915558981
+       ],
+       "boot_finite_frac": 0.934,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": -0.015115863101130032,
+       "ci": [
+        -0.034057699671989496,
+        0.003373569097007357
+       ],
+       "boot_finite_frac": 0.9435,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.21582130368290697,
+      "emb_delta": {
+       "value": -0.09127874223242888,
+       "ci": [
+        -0.16270097151667767,
+        -0.04893693777697114
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": -0.018898785046043136,
+       "ci": [
+        -0.032877218110960345,
+        -0.0025127158819025887
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.04579741919944037,
+        0.2818718788003277
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.2942468182079657,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.184,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.2813818336077323,
+      "emb_delta": {
+       "value": 0.006309005426779996,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5055,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": 0.0016264028526128379,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.528,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.28939439359350144,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.328,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.316,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.2537747592859143,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3125,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.307,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.24575818722036144,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.216,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.211,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2529422912360419,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.315,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.319,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.21582130368290697,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.028,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0215,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.2627455766501977,
+        0.2818718788003277
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.2643511276672063,
+      "emb_delta": {
+       "value": -0.016562173883912262,
+       "ci": [
+        -0.026050355156298104,
+        -0.0037528423512146677
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.008651531840043003,
+       "ci": [
+        -0.024078821275017606,
+        0.008866140945419635
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.26700979439357797,
+      "emb_delta": {
+       "value": -0.04447644989964906,
+       "ci": [
+        -0.05485609516769487,
+        -0.031125861256900915
+       ],
+       "boot_finite_frac": 0.997,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.00954602790193109,
+       "ci": [
+        -0.024921065318366804,
+        0.010089267971461006
+       ],
+       "boot_finite_frac": 0.992,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.21693459239334867,
+      "emb_delta": {
+       "value": -0.08939548259847625,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5295,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.0189838470083785,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.539,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.16396083939903877,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.025,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0245,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.04579741919944037,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.2807355416865382,
+      "emb_delta": {
+       "value": 0.005780126587319214,
+       "ci": [
+        -0.004902858041782487,
+        0.018445483968111902
+       ],
+       "boot_finite_frac": 0.9535,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.008724086880076896,
+       "ci": [
+        -0.019974241075132897,
+        0.012642464716311162
+       ],
+       "boot_finite_frac": 0.9595,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.2779885162888444,
+      "emb_delta": {
+       "value": 0.0036500682955342423,
+       "ci": [
+        -0.008731616221849158,
+        0.017114729922945347
+       ],
+       "boot_finite_frac": 0.988,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.009512403755854333,
+       "ci": [
+        -0.021106041836587708,
+        0.011873279785413185
+       ],
+       "boot_finite_frac": 0.994,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.2732559798374823,
+      "emb_delta": {
+       "value": 0.00011787469152179514,
+       "ci": [
+        -0.012293895824232624,
+        0.013930262097110346
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.00875490992108955,
+       "ci": [
+        -0.021785723433915563,
+        0.012313069199905309
+       ],
+       "boot_finite_frac": 0.998,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.27604329127160904,
+      "emb_delta": {
+       "value": -0.007050736185331339,
+       "ci": [
+        -0.018883324774288363,
+        0.006641870198173418
+       ],
+       "boot_finite_frac": 0.992,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.00884504476865162,
+       "ci": [
+        -0.02031599896939959,
+        0.011067749101115042
+       ],
+       "boot_finite_frac": 0.993,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.26535451381198416,
+      "emb_delta": {
+       "value": -0.01684761029848973,
+       "ci": [
+        -0.02700036584633229,
+        -0.00324036262101047
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.006358761113438771,
+       "ci": [
+        -0.020605739570011553,
+        0.01115077011935819
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.2627455766501977,
+      "emb_delta": {
+       "value": -0.02932680466608092,
+       "ci": [
+        -0.039616469979825555,
+        -0.015689693273593344
+       ],
+       "boot_finite_frac": 0.9945,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.004902733292220242,
+       "ci": [
+        -0.02078372854965162,
+        0.013370279185082696
+       ],
+       "boot_finite_frac": 0.995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.26934782817206826,
+      "emb_delta": {
+       "value": -0.04533494021409193,
+       "ci": [
+        -0.056510457466654784,
+        -0.030501977685385616
+       ],
+       "boot_finite_frac": 0.9945,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      },
+      "delta": {
+       "value": -0.007918040221521512,
+       "ci": [
+        -0.02239211822282745,
+        0.012229341856269829
+       ],
+       "boot_finite_frac": 0.9945,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.21582130368290697,
+        0.2942468182079657
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "sd35m",
+   "selector": "pickscore",
+   "judge": "imagereward",
+   "chosen": {
+    "stk": 2,
+    "mmr": 0.9,
+    "dpp": 2.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 2,
+     "dpp_param": 2.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.01591164622801266,
+      "bootstrap_ci": [
+       -0.008887474107662401,
+       0.03910448049540358
+      ],
+      "ci": [
+       -0.012796401344805006,
+       0.04461969380083032
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.00453690231137216,
+      "bootstrap_ci": [
+       0.00011841130009173643,
+       0.008954722675005647
+      ],
+      "ci": [
+       -0.0009852158155557273,
+       0.010059020438300047
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.04707435605621504,
+      "bootstrap_ci": [
+       -0.05727348455017515,
+       -0.037257341195301545
+      ],
+      "ci": [
+       -0.059812113944873777,
+       -0.0343365981675563
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": -0.007572043934467175,
+      "bootstrap_ci": [
+       -0.027142602564863415,
+       0.01135922713920325
+      ],
+      "ci": [
+       -0.031055839237344788,
+       0.01591175136841044
+      ]
+     },
+     "dominance_emb_delta": "STK dominated",
+     "dominance_delta": "neither (tie)"
+    },
+    "mmr": {
+     "stk_param": 2,
+     "mmr_param": 0.9,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": -0.0030675984057385542,
+      "bootstrap_ci": [
+       -0.026882643347810414,
+       0.019308253172846256
+      ],
+      "ci": [
+       -0.03256374306222752,
+       0.026428546250750414
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.00026257651865080334,
+      "bootstrap_ci": [
+       -0.0046677701696495435,
+       0.005005523229442584
+      ],
+      "ci": [
+       -0.005724825379907942,
+       0.006249978417209549
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.002108790534797643,
+      "bootstrap_ci": [
+       -0.010889282038926053,
+       0.007295831403241652
+      ],
+      "ci": [
+       -0.013401917195105155,
+       0.00918433612550987
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.006477313442612843,
+      "bootstrap_ci": [
+       -0.014026567667324094,
+       0.02674087487568367
+      ],
+      "ci": [
+       -0.01885254266847331,
+       0.031807169553699
+      ]
+     },
+     "dominance_emb_delta": "neither (tie)",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.38627634998780436,
+      "emb_delta": {
+       "value": -0.01427124021513114,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.751,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.004272045870156005,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7505,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.36333172882212467,
+      "emb_delta": {
+       "value": -0.0686913024809266,
+       "ci": [
+        -0.10891401082967359,
+        -0.0007673416739245682
+       ],
+       "boot_finite_frac": 0.9925,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.011803887953881702,
+       "ci": [
+        -0.04075432566975667,
+        0.016988558903843903
+       ],
+       "boot_finite_frac": 0.992,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.348507103110413,
+      "emb_delta": {
+       "value": -0.0893753725297394,
+       "ci": [
+        -0.1220283006719376,
+        -0.0041322488581757785
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.024442728583468076,
+       "ci": [
+        -0.052250960035534436,
+        0.007799896631203267
+       ],
+       "boot_finite_frac": 0.998,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.339040366553765,
+      "emb_delta": {
+       "value": -0.09522261420770103,
+       "ci": [
+        -0.13117340523604565,
+        -0.02654868925176782
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.049943068903953794,
+       "ci": [
+        -0.07693126688888052,
+        -0.022886306384328942
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.3219842862203791,
+      "emb_delta": {
+       "value": -0.11307671811677984,
+       "ci": [
+        -0.15760113706354378,
+        -0.0623978844310172
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.039581430697479346,
+       "ci": [
+        -0.07856607455996781,
+        -0.0009630465005644462
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2734316826718277,
+      "emb_delta": {
+       "value": -0.15816377719407138,
+       "ci": [
+        -0.20731315616842186,
+        -0.11235763596752818
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.05580332089315812,
+       "ci": [
+        -0.08654657005104918,
+        -0.018662611569594704
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.26761440872962783,
+      "emb_delta": {
+       "value": -0.16369610103576704,
+       "ci": [
+        -0.21151562740030827,
+        -0.12012685216363267
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.0605090048718823,
+       "ci": [
+        -0.09718227205360036,
+        -0.023096875981259167
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.16919452441931163,
+        0.3947312411036569
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.38627634998780436,
+      "emb_delta": {
+       "value": -0.017932475666634945,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.6885,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.006945556458266625,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.695,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.36333172882212467,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3605,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3735,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.348507103110413,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1285,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.124,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.339040366553765,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.066,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.057,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.3219842862203791,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0145,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.017,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2734316826718277,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.26761440872962783,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.3687420356172578,
+        0.3947312411036569
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.3825338129691122,
+      "emb_delta": {
+       "value": -0.020108529394264302,
+       "ci": [
+        -0.029116525886533216,
+        -0.003383744173781501
+       ],
+       "boot_finite_frac": 0.974,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.003699781676085548,
+       "ci": [
+        -0.013072428151481111,
+        0.020378655764320602
+       ],
+       "boot_finite_frac": 0.9755,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.3703647037597917,
+      "emb_delta": {
+       "value": -0.04069621558453215,
+       "ci": [
+        -0.05311484018233512,
+        -0.02381460949402889
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.005403208538015743,
+       "ci": [
+        -0.02658620455320736,
+        0.011874960678556387
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.35970490101155905,
+      "emb_delta": {
+       "value": -0.0828996151888849,
+       "ci": [
+        -0.09573831125200107,
+        -0.0677785075546925
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.016138173540672828,
+       "ci": [
+        -0.04040207227977535,
+        0.0011553019088818384
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.28300908001265324,
+      "emb_delta": {
+       "value": -0.14927006660814596,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.7995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": -0.05439980623453577,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.788,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.16919452441931163,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.3893439483935429,
+      "emb_delta": {
+       "value": -0.0029451241166502107,
+       "ci": [
+        -0.008957890754580202,
+        0.010819710276751986
+       ],
+       "boot_finite_frac": 0.9845,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.004040143059874005,
+       "ci": [
+        -0.009428589183884777,
+        0.023454283585444508
+       ],
+       "boot_finite_frac": 0.9845,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.39077087321984755,
+      "emb_delta": {
+       "value": -0.004530016461152989,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8835,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.006989923504769763,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8875,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.38897009091303913,
+      "emb_delta": {
+       "value": -0.010139047364162226,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.86,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.003999348240662441,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.858,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.38540002155435604,
+      "emb_delta": {
+       "value": -0.011513925217375875,
+       "ci": [
+        -0.01939681596312266,
+        0.005368703399121801
+       ],
+       "boot_finite_frac": 0.9585,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.007327232974135546,
+       "ci": [
+        -0.008054975684803678,
+        0.024289861556800213
+       ],
+       "boot_finite_frac": 0.9605,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.38689266214565604,
+      "emb_delta": {
+       "value": -0.017610476773005368,
+       "ci": [
+        -0.02574890946889847,
+        -0.0008761398815608203
+       ],
+       "boot_finite_frac": 0.9,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.007934253286234448,
+       "ci": [
+        -0.0075423742311300215,
+        0.02587297400298353
+       ],
+       "boot_finite_frac": 0.904,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.37314263128080327,
+      "emb_delta": {
+       "value": -0.02311041872790852,
+       "ci": [
+        -0.03492937278683994,
+        -0.005730926714791818
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.009880013209964185,
+       "ci": [
+        -0.012025115943871708,
+        0.028019031602521043
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.3687420356172578,
+      "emb_delta": {
+       "value": -0.03850304828907186,
+       "ci": [
+        -0.05185043977501697,
+        -0.02138321454391358
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      },
+      "delta": {
+       "value": 0.0011845042971715194,
+       "ci": [
+        -0.02217351569206777,
+        0.019916780345459906
+       ],
+       "boot_finite_frac": 1.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.26761440872962783,
+        0.3947312411036569
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "generator": "sd35m",
+   "selector": "imagereward",
+   "judge": "pickscore",
+   "chosen": {
+    "stk": 4,
+    "mmr": 0.5,
+    "dpp": 4.0
+   },
+   "tuned": {
+    "dpp": {
+     "stk_param": 4,
+     "dpp_param": 4.0,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.0477496119217173,
+      "bootstrap_ci": [
+       0.012656148737285917,
+       0.08073933368974869
+      ],
+      "ci": [
+       0.005892992427221258,
+       0.08960623141621334
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.01469799131155014,
+      "bootstrap_ci": [
+       0.0016981753055006267,
+       0.027391554182395333
+      ],
+      "ci": [
+       -0.0009979632029724836,
+       0.030393945826072764
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.015047857063632378,
+      "bootstrap_ci": [
+       -0.02810732465806157,
+       -0.0011847983508997727
+      ],
+      "ci": [
+       -0.032205158514998375,
+       0.0021094443877336215
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.005028950881387623,
+      "bootstrap_ci": [
+       -0.015527622435864032,
+       0.027368293828158235
+      ],
+      "ci": [
+       -0.02185638754690403,
+       0.03191428930967928
+      ]
+     },
+     "dominance_emb_delta": "STK dominates",
+     "dominance_delta": "STK dominates"
+    },
+    "mmr": {
+     "stk_param": 4,
+     "mmr_param": 0.5,
+     "gain_judge": {
+      "non_estimable": false,
+      "mean": 0.04063263146187572,
+      "bootstrap_ci": [
+       0.0033606910021601716,
+       0.07494721999311592
+      ],
+      "ci": [
+       -0.0033209526019678803,
+       0.08458621552571932
+      ]
+     },
+     "raw_gain_judge": {
+      "non_estimable": false,
+      "mean": 0.011719128116965294,
+      "bootstrap_ci": [
+       -0.0015129794366657732,
+       0.02498876927420496
+      ],
+      "ci": [
+       -0.0050007947453378256,
+       0.028439050979268413
+      ]
+     },
+     "emb_delta": {
+      "non_estimable": false,
+      "mean": -0.012191118383807206,
+      "bootstrap_ci": [
+       -0.025745073338659868,
+       0.0016334528538525309
+      ],
+      "ci": [
+       -0.02941634925906353,
+       0.005034112491449118
+      ]
+     },
+     "delta": {
+      "non_estimable": false,
+      "mean": 0.004018428109544758,
+      "bootstrap_ci": [
+       -0.017551533830286174,
+       0.02634546324466961
+      ],
+      "ci": [
+       -0.02395313561725701,
+       0.03198999183634653
+      ]
+     },
+     "dominance_emb_delta": "neither (tie)",
+     "dominance_delta": "neither (tie)"
+    }
+   },
+   "matched": {
+    "dpp": {
+     "2": {
+      "stk_gain_judge": 0.34389865647771556,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.108,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.3100102193492945,
+      "emb_delta": {
+       "value": -0.0026539529680364854,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.886,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": 0.0026727487306597193,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8935,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.34449328229336457,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.194,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.198,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.3253825439411201,
+      "emb_delta": {
+       "value": 0.004468358109502996,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.582,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": 0.018352227918466663,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.59,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.3023638829045736,
+      "emb_delta": {
+       "value": -0.01520864174833833,
+       "ci": [
+        -0.082077580062628,
+        0.008959704699129316
+       ],
+       "boot_finite_frac": 0.922,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": 0.01855668348111753,
+       "ci": [
+        -0.015545131163125257,
+        0.04393713850179322
+       ],
+       "boot_finite_frac": 0.9375,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2656702098213144,
+      "emb_delta": {
+       "value": -0.05551346403233014,
+       "ci": [
+        -0.10952327785543886,
+        0.007638404800237829
+       ],
+       "boot_finite_frac": 0.9965,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": -0.018031403163898792,
+       "ci": [
+        -0.05494376488168087,
+        0.02168981183720785
+       ],
+       "boot_finite_frac": 0.9995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.24990630657684954,
+      "emb_delta": {
+       "value": -0.08593357655954781,
+       "ci": [
+        -0.14148265574975658,
+        -0.013606023682684338
+       ],
+       "boot_finite_frac": 0.999,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": -0.0234496974306405,
+       "ci": [
+        -0.0672116305685583,
+        0.019761317234232283
+       ],
+       "boot_finite_frac": 0.9985,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.07343717331859118,
+        0.3291942788123139
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "2": {
+      "stk_gain_judge": 0.34389865647771556,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1135,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1045,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "3": {
+      "stk_gain_judge": 0.3100102193492945,
+      "emb_delta": {
+       "value": -0.0028777358916786885,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8685,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": -0.0005413380621219176,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8765,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "4": {
+      "stk_gain_judge": 0.34449328229336457,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1995,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.2045,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "6": {
+      "stk_gain_judge": 0.3253825439411201,
+      "emb_delta": {
+       "value": -0.001737452741296136,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.576,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": 0.018335176085035265,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.589,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "8": {
+      "stk_gain_judge": 0.3023638829045736,
+      "emb_delta": {
+       "value": -0.023333086190539223,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8055,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": 0.012913311439819088,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.786,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "12": {
+      "stk_gain_judge": 0.2656702098213144,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3075,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.3095,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     },
+     "16": {
+      "stk_gain_judge": 0.24990630657684954,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1595,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.1635,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.27801009285686784,
+        0.3291942788123139
+       ]
+      }
+     }
+    }
+   },
+   "matched_reverse": {
+    "dpp": {
+     "4.0": {
+      "gain_judge": 0.2967436703716473,
+      "emb_delta": {
+       "value": -0.01751266808946334,
+       "ci": [
+        -0.028531910996560116,
+        0.00043292787988876373
+       ],
+       "boot_finite_frac": 0.9765,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.014566279108528285,
+       "ci": [
+        -0.01842056309676147,
+        0.03709823725343194
+       ],
+       "boot_finite_frac": 0.9825,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "2.0": {
+      "gain_judge": 0.2887858940480417,
+      "emb_delta": {
+       "value": -0.03637746085888316,
+       "ci": [
+        -0.05102568728964741,
+        -0.021213272574191297
+       ],
+       "boot_finite_frac": 0.9505,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.0034047551315192423,
+       "ci": [
+        -0.03103138493542365,
+        0.03249785053383679
+       ],
+       "boot_finite_frac": 0.9525,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "1.0": {
+      "gain_judge": 0.2509957834702802,
+      "emb_delta": {
+       "value": -0.08403591738244022,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5385,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": -0.023068225695903312,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.5565,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.1761733754262853,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.007,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.003,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.25": {
+      "gain_judge": 0.07343717331859118,
+      "emb_delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": NaN,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.0,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     }
+    },
+    "mmr": {
+     "0.9": {
+      "gain_judge": 0.3287026658446426,
+      "emb_delta": {
+       "value": 0.012516899437812208,
+       "ci": [
+        -0.0013367557311739734,
+        0.023306796733513213
+       ],
+       "boot_finite_frac": 0.98,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.019915902726621165,
+       "ci": [
+        0.001090013612202951,
+        0.04268314602565286
+       ],
+       "boot_finite_frac": 0.979,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.8": {
+      "gain_judge": 0.32592923302420895,
+      "emb_delta": {
+       "value": 0.005317154550059329,
+       "ci": [
+        -0.008406949063067742,
+        0.015578074308261036
+       ],
+       "boot_finite_frac": 0.994,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.018671422497901165,
+       "ci": [
+        -0.0014625653177457482,
+        0.04183763163477255
+       ],
+       "boot_finite_frac": 0.9925,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.7": {
+      "gain_judge": 0.31951710696758046,
+      "emb_delta": {
+       "value": -4.87718685540095e-05,
+       "ci": [
+        -0.014053592598794493,
+        0.011447732642588719
+       ],
+       "boot_finite_frac": 0.997,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.0150789740977744,
+       "ci": [
+        -0.007529752577486258,
+        0.0377670929515967
+       ],
+       "boot_finite_frac": 0.9975,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.6": {
+      "gain_judge": 0.3100155766390208,
+      "emb_delta": {
+       "value": -0.002870032963324734,
+       "ci": [
+        -0.016756269604793178,
+        0.008690976002379338
+       ],
+       "boot_finite_frac": 0.9925,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.015274569993572275,
+       "ci": [
+        -0.011373823955321688,
+        0.037197494538154824
+       ],
+       "boot_finite_frac": 0.996,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.5": {
+      "gain_judge": 0.3038606508314889,
+      "emb_delta": {
+       "value": -0.01750670346486989,
+       "ci": [
+        -0.02586585904362853,
+        0.0016062425873462737
+       ],
+       "boot_finite_frac": 0.984,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.015401714081016718,
+       "ci": [
+        -0.01672334470303206,
+        0.035558674747575694
+       ],
+       "boot_finite_frac": 0.99,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.4": {
+      "gain_judge": 0.30147659835463664,
+      "emb_delta": {
+       "value": -0.02639223757115674,
+       "ci": [
+        -0.03477044770122867,
+        -0.006740152928146215
+       ],
+       "boot_finite_frac": 0.981,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": 0.010800324003776916,
+       "ci": [
+        -0.02114784053951601,
+        0.03221174174901494
+       ],
+       "boot_finite_frac": 0.9865,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     },
+     "0.3": {
+      "gain_judge": 0.27801009285686784,
+      "emb_delta": {
+       "value": -0.03556732280675226,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.867,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      },
+      "delta": {
+       "value": -0.007282337399512435,
+       "ci": [
+        NaN,
+        NaN
+       ],
+       "boot_finite_frac": 0.8665,
+       "non_estimable": false,
+       "curve_gain_range": [
+        0.24990630657684954,
+        0.34449328229336457
+       ]
+      }
+     }
+    }
+   }
+  }
+ ]
+}

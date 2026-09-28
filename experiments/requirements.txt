@@ -1,0 +1,16 @@
+# CPU analysis and reports. These do not download model weights.
+numpy>=1.24
+pyyaml>=6.0        # run configs are validated on CPU, before any download
+pytest>=7.0
+matplotlib  # make_report.py and figure scripts
+
+# Real runs (GPU).  Install these on the machine that has the accelerator.
+# torch>=2.1
+# diffusers>=0.30
+# transformers>=4.44
+# accelerate
+# safetensors
+# open_clip_torch          # LAION-Aesthetics CLIP ViT-L/14 backbone
+# image-reward             # ImageReward
+# hpsv2                    # HPSv2
+# Pillow

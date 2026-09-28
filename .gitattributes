@@ -1,0 +1,7 @@
+*.npz -text
+*.json -text
+*.jsonl -text
+*.txt -text
+*.yaml -text
+*.py text eol=lf
+*.md text eol=lf

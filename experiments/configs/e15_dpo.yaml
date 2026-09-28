@@ -1,0 +1,152 @@
+# E15 config (post hoc): amend7.yaml plus SDXL with the public Diffusion-DPO
+# UNet (Wallace et al., CVPR 2024), same prompts, pools, seeds and SDXL
+# sampler settings, so preference fine-tuning at generation time can be set
+# against preference-score selection at the output layer.  Everything else is
+# byte-identical to amend7.yaml.
+#
+# (was) Amendment 7 config: pilot.yaml plus two generators (PixArt-Sigma, SD3.5
+# Medium).  Everything else is byte-identical to pilot.yaml.
+# The minimum experiment that can kill or establish Claim A.
+# Scope follows the Phase-4 review (../idea-stage/reviews/critical_review.md),
+# which cut the original matrix by roughly 6x.  Everything that was cut is
+# listed at the bottom so the omissions are deliberate and visible.
+
+seed: 0
+domain: cuisine                  # ONLY cuisine in study 1
+countries: [Brazil, France, India, Italy, Japan, Nigeria, Turkey, "United States"]
+templates: [A, B]                # 8 countries x 2 templates = 16 prompt strings
+
+# The unit of replication is a POOL.  4 independent pools per prompt per model.
+n: 64                            # candidate pool size
+n_pools: 4                       # -> 16 * 4 * 64 = 4096 images per model
+k: 16                            # PRIMARY selection size (pre-registered)
+secondary_k: 32
+m_auth: 8                        # common rarefaction count for every endpoint
+n_null: 10000                    # rarefaction draws per pool (CPU, not GPU)
+
+generators:                      # SDXL first; FLUX.1-schnell as replication
+  - id: stabilityai/stable-diffusion-xl-base-1.0
+    steps: 30
+    guidance_scale: 7.0
+    sampler: DPMSolverMultistep
+    negative_prompt: ""          # fixed and empty: a negative prompt is itself
+                                 # a selection pressure and would confound this
+    height: 1024
+    width: 1024
+    dtype: float16
+    vae: madebyollin/sdxl-vae-fp16-fix   # the stock SDXL VAE overflows in fp16
+  - id: black-forest-labs/FLUX.1-schnell
+    steps: 4
+    guidance_scale: 0.0
+    height: 1024
+    width: 1024
+    dtype: bfloat16
+    max_sequence_length: 256
+
+  # Amendment 7 (refine-logs/PREREG_AMENDMENT.md section 13): two more
+  # generators, same prompts, pools, seeds and pool plan; each at the settings
+  # of its model card, fixed before any of its images existed.
+  - id: PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+    steps: 20
+    guidance_scale: 4.5
+    negative_prompt: ""
+    height: 1024
+    width: 1024
+    dtype: float16
+    max_sequence_length: 300
+  - id: stabilityai/stable-diffusion-3.5-medium
+    steps: 40
+    guidance_scale: 4.5
+    negative_prompt: ""
+    height: 1024
+    width: 1024
+    dtype: bfloat16
+    max_sequence_length: 256
+
+  # E15 (post hoc): SDXL base with the Diffusion-DPO UNet; stock SDXL settings.
+  - id: stabilityai/stable-diffusion-xl-base-1.0
+    tag: sdxl-dpo
+    unet: mhdang/dpo-sdxl-text2image-v1
+    steps: 30
+    guidance_scale: 7.0
+    sampler: DPMSolverMultistep
+    negative_prompt: ""
+    height: 1024
+    width: 1024
+    dtype: float16
+    vae: madebyollin/sdxl-vae-fp16-fix
+
+scorers:
+  primary: pickscore             # affine form verified empirically per scorer
+  replication: imagereward
+
+geotagger:
+  id: Qwen/Qwen2.5-VL-7B-Instruct
+  protocol: open_then_map        # open question, NO vocabulary in the prompt;
+                                 # free text mapped to CSpace afterwards
+                                 # (src/labels.py).  The pre-registration primed
+                                 # the tagger with 32 CSpace names; priming is
+                                 # the R1 mechanism and there is no longer a
+                                 # human audit to catch it.
+  # The tagger NEVER sees the selector's scores.  `load_geotagger` has no
+  # `scores` argument; only the mock does, and only to plant the confound.
+
+# The blinded human audit of the pre-registration is REMOVED (no human-subject
+# annotation; decision of 2026-09-23).  Its job -- catching score-dependent
+# label merging by the tagger (R1) -- is done by pools whose labels are known
+# by construction: every image is prompted with a NAMED CSpace dish, scored
+# against the under-specified prompt of its country, and tagged blind.  See
+# src/known_label.py.
+known_label:
+  pools_per_country: 2           # -> 8 x 2 x 64 = 1024 images per model
+  n_dishes: 32                   # random CSpace cuisine subset per pool
+  zipf_s: 1.1                    # i.i.d. draws, so pools have repeats and a head
+  seed_base: 500000              # pool seeds disjoint from the main pools
+  min_kb_prominence: 0.8         # draw only CSpace entries with a Wikipedia
+                                 # title and >= 3 Wikidata properties: CSpace
+                                 # cuisine also lists brands and plants, and a
+                                 # prompt naming "Three Crowns" asks for nothing
+                                 # depictable
+  verifier: Qwen/Qwen2.5-VL-7B-Instruct   # closed yes/no: "does this show {dish}?"
+  gap_margin_proportional: 0.05  # the pre-registered machine-minus-audit margin
+
+tune:                            # frontier tuning pools, never evaluated on
+  pools_per_country: 1           # template A only -> 512 images per model
+  seed_base: 900000
+
+analysis:
+  contrast: log                  # delta = log D_top - mean_r log D_rand_r
+  margin_proportional: 0.10      # pre-registered smallest meaningful loss
+  heterogeneity_null: equal_effects
+  multiplicity: holm             # across the 3 confirmatory parts of Claim A
+  simultaneous_intervals: true   # not 28 pairwise country tests
+
+frontier:                        # PREREG_AMENDMENT.md section 5; analyze.py
+                                 # refuses to run if this differs from
+                                 # src/frontier.py SELECTOR_GRID
+  selectors: [random, topk, stk, mmr, dpp]
+  stk_clusters: [2, 3, 4, 6, 8, 12, 16]    # proposed: stratified top-k
+  mmr_lambda: [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3]
+  dpp_alpha: [4.0, 2.0, 1.0, 0.5, 0.25]    # reinstated as a tuned baseline
+  embedding: dinov2_vitb14       # never CLIP: CLIP is the selector's own space
+  tune_on: tune_pools            # the `tune:` block above; never evaluated on
+  tuning_rule: max_judge_gain_within_margin   # equal-weight country means,
+                                 # complete tuning countries only
+  judge: held_out_scorer          # quality judged by the scorer NOT used to
+                                 # select (PickScore <-> ImageReward); no human
+                                 # preference study.  Claims about human
+                                 # preference are out of scope as a result.
+
+# CUT from study 1, on the reviewer's instruction (R5):
+#   domains      art, landmark; the global template G
+#   generators   SD1.5, SD3-medium
+#   scorers      HPSv2, LAION-Aesthetics
+#   selectors    file-size, random-direction (they select on content, so they
+#                were never nulls)
+#   outcomes     A5 cross-country Jaccard convergence (country-conditioned
+#                vocabularies make the intersections structurally tiny, and
+#                Jaccard also moves with set cardinality)
+#   claims       the projection intervention (Claim B), the prototypicality
+#                mechanism correlation, the Wikidata-richness proxy
+# The projection is deferred until A1 survives the known-label audit.  It is not
+# abandoned: `src/neutralize.py` stays, unused by this config.

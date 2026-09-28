@@ -1,0 +1,25 @@
+{
+ "readers": [
+  "qwen",
+  "siglip"
+ ],
+ "complete_reader_set": false,
+ "diversity_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": false,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ },
+ "faithfulness_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": false,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ },
+ "faithfulness_within_dish_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": false,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ }
+}

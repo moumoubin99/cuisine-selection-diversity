@@ -1,0 +1,20 @@
+{
+ "diversity_robust": {
+  "sdxl|pickscore": true,
+  "sdxl|imagereward": true,
+  "flux-schnell|pickscore": true,
+  "flux-schnell|imagereward": true
+ },
+ "faithfulness_robust": {
+  "sdxl|pickscore": true,
+  "sdxl|imagereward": true,
+  "flux-schnell|pickscore": true,
+  "flux-schnell|imagereward": true
+ },
+ "faithfulness_within_dish_robust": {
+  "sdxl|pickscore": false,
+  "sdxl|imagereward": false,
+  "flux-schnell|pickscore": false,
+  "flux-schnell|imagereward": false
+ }
+}
